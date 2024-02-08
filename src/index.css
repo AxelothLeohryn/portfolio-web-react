@@ -1,3 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    color-scheme: dark light;
+}
+
+html {
+    font-family: "Onest", system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(10 10 10 / 1);
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(32, 166, 255, 0.3), rgba(255, 255, 255, 0));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overscroll-behavior: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(5%);
+    }
+    70% {
+        transform: translateY(-5%);
+    }
+    90% {
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-top {
+    animation: slideFromTop 0.5s ease-out forwards;
+}
+
+.slide-in-bottom {
+    animation: slideFromBottom 1.5s ease-out forwards;
+}
+
+.slide-in-left {
+    animation: slideFromLeft 0.5s ease-out forwards;
+}
+
+.slide-in-right {
+    animation: slideFromRight 0.5s ease-out forwards;
+}
+.bouncy-slide-up {
+    animation: slideFromBottom 1s ease-out forwards;
+}
