@@ -14,7 +14,7 @@ const Main = () => {
   const [isPictureHovered, setIsPictureHovered] = useState(false);
 
   //Cambiar cuando me encuentre trabajando (:D)
-  const isAvailable = false;
+  const isAvailable = true;
 
   return (
     <main className="mx-auto lg:w-[900px] px-4 flex flex-col items-start fade">
