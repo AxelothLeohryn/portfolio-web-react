@@ -1,16 +1,26 @@
-import React from "react";
+import { useState } from "react";
 import SocialBadge from "./SocialBadge";
-import GitHubLogo from "../../assets/icons/github.svg";
-import LinkedInLogo from "../../assets/icons/linkedin.svg";
-import GmailLogo from "../../assets/icons/gmail.svg";
-import VSCodeLogo from "../../assets/icons/visualstudiocode.svg";
+import Experience from "./Experience";
+import Projects from "./Projects";
+
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import WorkIcon from "@mui/icons-material/Work";
+import CodeIcon from "@mui/icons-material/Code";
 
 const Main = () => {
+  // State to track hover status
+  const [isPictureHovered, setIsPictureHovered] = useState(false);
+
+  //Cambiar cuando me encuentre trabajando (:D)
+  const isAvailable = false;
+
   return (
-    <main className="mx-auto lg:w-[900px] px-4">
-      <section className="py-44 pb-24">
+    <main className="mx-auto lg:w-[900px] px-4 flex flex-col items-start fade">
+      <section id="home" className="py-36 pb-24 max-w-[1100px]">
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 pb:6 lg:pb-10">
-          Hello there!👋 Soy Alex
+          <span className="wave my-auto sm:my-0">👋</span> Hello there! Soy Alex
           <a
             className="flex justify-center items-start slide-in-right"
             href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
@@ -18,17 +28,40 @@ const Main = () => {
             rel="noopener"
           >
             <img
-              className="rounded-full size-[6rem] "
+              className={`rounded-full size-[6rem] ml-4 outline-none hover:outline ${
+                isAvailable
+                  ? "hover:outline-green-600"
+                  : "hover:outline-red-600"
+              } hover:outline-green-600 transition duration-300`}
               src="./profile-photo-min.png"
               alt="Foto de perfil"
+              onMouseEnter={() => setIsPictureHovered(true)}
+              onMouseLeave={() => setIsPictureHovered(false)}
             />
-            <span className="inline-flex items-center bg-green-300 text-green-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full size-6 overflow-hidden dark:bg-blue-900 dark:text-blue-300 hover:w-20 hover:text-green-900 hover:-translate-x-2 hover:-translate-y-1 hover:scale-105 transition-all duration-300 ease-out bouncy-slide-up">
-              Disponible
+
+            <span
+              className={`inline-flex items-center text-center absolute left-4 top-[4.4rem] justify-center shadow-xl ${
+                isAvailable ? "bg-green-400" : "bg-red-400"
+              } ${
+                isPictureHovered
+                  ? isAvailable
+                    ? "text-green-900"
+                    : "text-red-900"
+                  : isAvailable
+                  ? "text-green-400"
+                  : "text-red-400"
+              } text-xs font-medium me-2 px-2.5 py-0.5 rounded-full size-7 overflow-hidden transition-all duration-200 ease-out ${
+                isPictureHovered ? "w-24 scale-105" : ""
+              }`}
+              onMouseEnter={() => setIsPictureHovered(true)}
+              onMouseLeave={() => setIsPictureHovered(false)}
+            >
+              {isAvailable ? "Disponible" : "No disponible"}
             </span>
           </a>
         </h1>
         <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px]">
-          <span className="text-cyan-100/90">
+          <span className="text-cyan-100/90 fade">
             Desarrollador Fullstack Junior
           </span>{" "}
           con background en Ciencias. Apasionado por el mundo del desarrollo, el
@@ -38,22 +71,36 @@ const Main = () => {
         <nav className="flex gap-4 mt-8 flex-wrap slide-in-top">
           <SocialBadge
             text={"GitHub"}
-            logo={GitHubLogo}
+            Icon={GitHubIcon}
             link={"https://github.com/AxelothLeohryn"}
           />
           <SocialBadge
             text={"LinkedIn"}
-            logo={LinkedInLogo}
+            Icon={LinkedInIcon}
             link={
               "https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
             }
           />
           <SocialBadge
             text={"alejandro.sanserg@gmail.com"}
-            logo={GmailLogo}
+            Icon={EmailIcon}
             link={"mailto:alejandro.sanserg@gmail.com"}
           />
         </nav>
+      </section>
+      <section id="experience" className="">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center">
+          <WorkIcon />
+          Experiencia y Educación
+        </h2>
+        <Experience />
+      </section>
+      <section id="projects" className="">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center">
+          <CodeIcon />
+          Proyectos
+        </h2>
+        <Projects />
       </section>
     </main>
   );
