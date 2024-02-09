@@ -1,5 +1,5 @@
 import { useState } from "react";
-import tagIcons from "../../../../../assets/tag-icons/tagIcons";
+import tagIcons from "../../../../../utils/tagIcons";
 
 const ProjectTag = ({ tag }) => {
   const [isHovering, setIsHovering] = useState(false);

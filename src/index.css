@@ -40,12 +40,15 @@ body.bg-home {
   }
   
   body.bg-about {
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 198, 198, 0.3), rgba(255, 255, 255, 0));
+    background-image: radial-gradient(125% 125% at 50% 10%, #000 30%, rgba(173, 192, 255, 0.3) 100%);
   }
   
+  
   body.bg-contact {
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(198, 120, 198, 0.3), rgba(255, 255, 255, 0));
+    background-image: radial-gradient(125% 125% at 50% 10%, #000 30%, rgba(0, 60, 255, 0.3) 100%);
   }
+
+  
   body.bg-home,
 body.bg-experience,
 body.bg-projects,
@@ -63,7 +66,7 @@ body.bg-contact {
 
 .glow-on-hover:hover {
     text-shadow: 0 0 2px white;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 10px white;
 }
 
 

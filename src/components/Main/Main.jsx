@@ -8,6 +8,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
+import PeopleIcon from "@mui/icons-material/People";
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const Main = () => {
   // State to track hover status
@@ -17,10 +19,11 @@ const Main = () => {
   const isAvailable = true;
 
   return (
-    <main className="mx-auto lg:w-[900px] px-4 flex flex-col items-start fade">
+    <main className="mx-auto lg:w-[1000px] px-5 flex flex-col items-start fade">
       <section id="home" className="py-36 max-w-[1100px]">
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
-          <span className="wave my-auto lg:my-0">👋</span> Hello there! <br className="lg:hidden" /> Soy Alex.
+          <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
+          <br className="lg:hidden" /> Soy Alex.
           <a
             className="flex justify-center items-start slide-in-bottom"
             href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
@@ -60,7 +63,7 @@ const Main = () => {
             </span>
           </a>
         </h1>
-        <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px] mt-8">
+        <h2 className="text-xl lg:text-2xl text-wrap max-w-[800px] mt-8">
           <span className="text-cyan-100/90 fade">
             Desarrollador Fullstack Junior
           </span>{" "}
@@ -101,6 +104,37 @@ const Main = () => {
           Proyectos
         </h2>
         <Projects />
+        <div className="w-full flex justify-center"><MoreHorizIcon fontSize="large"/></div>
+        <p className="text-base font-normal text-gray-400 text-pretty mb-5">¡Entra en mi GitHub para ver más!</p>
+      </section>
+      <section id="about" className="mt-20">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
+          <PeopleIcon />
+          Sobre mí
+        </h2>
+        <article className="flex gap-10">
+          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
+            <p>
+              Me llamo Alejandro, aunque todos me llaman Alex. Me adentré en el
+              mundo de la programación en 2023, y desde entonces he
+              encontrado una nueva carrera que me apasiona y me motiva a seguir
+              experimentando y aprendiendo.
+            </p>{" "}
+            <p>
+              Disfruto muchísimo creando nuevas experiencias y herramientas
+              útiles, y resolviendo todos los mini-retos que van asomándose al
+              enfrentarse a cualquier proyecto.
+            </p>{" "}
+            <p>Me considero una persona curiosa, creativa y colaborativa. Gracias a mi paso por el bootcamp de The Bridge, estoy entrenado no solo en los aspectos más técnicos del desarrollo, sino también en la gestión de proyectos, el trabajo en equipo, la gestión de la frustración y la capacidad de aprender nuevos frameworks y herramientas (fan nº1 de <em>leer la documentación</em>).{" "}
+            {" "}
+            </p>
+          </div>
+          <img
+            className="rounded-3xl size-40 aspect-square lg:size-60 rotate-3 border-2 border-gray-200/90 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:drop-shadow-glow"
+            src="/about-me.jpg"
+            alt="Foto de Alex"
+          />
+        </article>
       </section>
     </main>
   );

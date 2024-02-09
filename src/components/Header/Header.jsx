@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 const Header = () => {
   const [isScrolled, setisScrolled] = useState(false);
@@ -48,9 +49,13 @@ const Header = () => {
             <a className={linkStyles} href="#about">
               Sobre mí
             </a>
-            <a className={linkStyles} href="#contact">
-              Contacto
+            <a className={`${linkStyles} text-gray-400 flex gap-1 items-center`} href="https://github.com/AxelothLeohryn/portfolio-web-react" target="_blank" rel="noopener noreferrer">
+              GitHub
+              <ArrowOutwardIcon fontSize="small"/>
             </a>
+            {/* <a className={linkStyles} href="#contact">
+              Contacto
+            </a> */}
           </nav>
         </div>
       </header>
