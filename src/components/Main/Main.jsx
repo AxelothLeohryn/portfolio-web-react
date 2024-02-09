@@ -9,7 +9,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
 import PeopleIcon from "@mui/icons-material/People";
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 
 const Main = () => {
   // State to track hover status
@@ -21,6 +21,7 @@ const Main = () => {
   return (
     <main className="mx-auto lg:w-[1000px] px-5 flex flex-col items-start fade">
       <section id="home" className="py-36 max-w-[1100px]">
+        <div id="home-sentinel" className="absolute top-0 h-[1px] w-full"></div>
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
           <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
           <br className="lg:hidden" /> Soy Alex.
@@ -104,8 +105,12 @@ const Main = () => {
           Proyectos
         </h2>
         <Projects />
-        <div className="w-full flex justify-center"><MoreHorizIcon fontSize="large"/></div>
-        <p className="text-base font-normal text-gray-400 text-pretty mb-5">¡Entra en mi GitHub para ver más!</p>
+        <div className="w-full flex justify-center">
+          <MoreHorizIcon fontSize="large" />
+        </div>
+        <p className="text-base font-normal text-gray-400 text-pretty mb-5">
+          ¡Entra en mi GitHub para ver más!
+        </p>
       </section>
       <section id="about" className="mt-20">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
@@ -116,17 +121,22 @@ const Main = () => {
           <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
             <p>
               Me llamo Alejandro, aunque todos me llaman Alex. Me adentré en el
-              mundo de la programación en 2023, y desde entonces he
-              encontrado una nueva carrera que me apasiona y me motiva a seguir
+              mundo de la programación en 2023, y desde entonces he encontrado
+              una nueva carrera que me apasiona y me motiva a seguir
               experimentando y aprendiendo.
-            </p>{" "}
+            </p>
             <p>
               Disfruto muchísimo creando nuevas experiencias y herramientas
               útiles, y resolviendo todos los mini-retos que van asomándose al
               enfrentarse a cualquier proyecto.
-            </p>{" "}
-            <p>Me considero una persona curiosa, creativa y colaborativa. Gracias a mi paso por el bootcamp de The Bridge, estoy entrenado no solo en los aspectos más técnicos del desarrollo, sino también en la gestión de proyectos, el trabajo en equipo, la gestión de la frustración y la capacidad de aprender nuevos frameworks y herramientas (fan nº1 de <em>leer la documentación</em>).{" "}
-            {" "}
+            </p>
+            <p>
+              Me considero una persona curiosa, creativa y colaborativa. Gracias
+              a mi paso por el bootcamp de The Bridge, estoy entrenado no solo
+              en los aspectos más técnicos del desarrollo, sino también en la
+              gestión de proyectos, el trabajo en equipo, la gestión de la
+              frustración y la capacidad de aprender nuevos frameworks y
+              herramientas (fan nº1 de <em>leer la documentación</em>).
             </p>
           </div>
           <img
