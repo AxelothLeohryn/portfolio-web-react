@@ -30,7 +30,7 @@ const Header = ({activeSection}) => {
   return (
     <>
       <header
-        className={` w-full mx-auto gap-4 fixedg top-0 z-10 transition duration-300 ${
+        className={` w-full mx-auto gap-4 fixed top-0 z-10 transition duration-300 ${
           isScrolled
             ? "shadow-lg bg-black/50 backdrop-filter backdrop-blur-3xl"
             : ""

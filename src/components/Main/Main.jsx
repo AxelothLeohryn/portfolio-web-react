@@ -117,7 +117,7 @@ const Main = () => {
           <PeopleIcon />
           Sobre mí
         </h2>
-        <article className="flex gap-10">
+        <article className="flex flex-col gap-10">
           <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
             <p>
               Me llamo Alejandro, aunque todos me llaman Alex. Me adentré en el
