@@ -63,7 +63,7 @@ export const projectList = [
   },
   {
     title:"MixTFT - Audio Mixer for Teamfight Tactics",
-    description: "MixTFT es una aplicación web que permite a los jugadores de Teamfight Tactics (TFT) de Riot Games mezclar y escuchar las bandas sonoras de las diferentes composiciones del Set 10 del juego.",
+    description: "Aplicación web que permite a los jugadores de Teamfight Tactics (TFT) de Riot Games mezclar y escuchar las bandas sonoras de las diferentes composiciones del Set 10 del juego.",
     accessData: null,
     link:"https://axelothleohryn.github.io/MixTFT-web/",
     github: "https://github.com/AxelothLeohryn/MixTFT-web",
