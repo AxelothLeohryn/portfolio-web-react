@@ -34,6 +34,17 @@ export const projectList = [
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
   {
+    title: "PokeApp - Pokedex con React",
+    description: "PokeApp es una aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Esta aplicación utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
+    accessData: null,
+    link:"https://pokeapp-react-axeloth.netlify.app/",
+    github: "https://github.com/AxelothLeohryn/pokeapp-react",
+    images: [
+      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
+    ],
+    tags: ["REACT", "SASS"],
+  },
+  {
     title: "Dismoviery - Frontend VanillaJS",
     description: 'Aplicación web construida con VanillaJS conectada a la API externa de TMDB que permite a los usuarios buscar películas, filtrar resultados y descubrir nuevos favoritos. Mediante Google Firebase y FireAuth, el sitio ofrece una experiencia de usuario rica con características como autenticación de usuarios, listas de favoritos y "Ver más tarde" e información detallada de películas. Registrate o usa los datos de acceso para probar la app!',
     accessData: {
@@ -49,17 +60,6 @@ export const projectList = [
 
   ],
   tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
-  },
-  {
-    title: "PokeApp - Pokedex con React",
-    description: "PokeApp es una aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Esta aplicación utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
-    accessData: null,
-    link:"https://pokeapp-react-axeloth.netlify.app/",
-    github: "https://github.com/AxelothLeohryn/pokeapp-react",
-    images: [
-      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
-    ],
-    tags: ["REACT", "SASS"],
   },
   {
     title:"MixTFT - Audio Mixer for Teamfight Tactics",
