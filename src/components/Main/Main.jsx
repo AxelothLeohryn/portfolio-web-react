@@ -117,8 +117,8 @@ const Main = () => {
           <PeopleIcon />
           Sobre mí
         </h2>
-        <article className="flex flex-col gap-10">
-          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
+        <article className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 mx-5">
+          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4" >
             <p>
               Me llamo Alejandro, aunque todos me llaman Alex. Me adentré en el
               mundo de la programación en 2023, y desde entonces he encontrado
@@ -140,7 +140,7 @@ const Main = () => {
             </p>
           </div>
           <img
-            className="rounded-3xl size-40 aspect-square lg:size-60 rotate-3 border-2 border-gray-200/90 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:drop-shadow-glow"
+            className="rounded-3xl size-56 aspect-square lg:size-60 mt-4 rotate-3 border-2 border-gray-200/90 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:drop-shadow-glow"
             src="/about-me.jpg"
             alt="Foto de Alex"
           />

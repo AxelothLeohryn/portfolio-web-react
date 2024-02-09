@@ -6,7 +6,7 @@ const Header = ({activeSection}) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 75) {
         setisScrolled(true);
       } else {
         setisScrolled(false);
@@ -19,13 +19,11 @@ const Header = ({activeSection}) => {
   const scrollToTop = (event) => {
     event.preventDefault();
     window.scrollTo({
-      top: -10,
+      top: 0,
     });
   };
 
   const isActive = section => section === activeSection;
-
-  const linkStyles = "py-4 glow-on-hover px-2 lg:px-5";
 
   return (
     <>
@@ -58,7 +56,7 @@ const Header = ({activeSection}) => {
           <a href="#about" className={`py-4 px-2 lg:px-5 glow-on-hover ${isActive('about') ? "glowing-active" : ''}`}>
             Sobre mí
           </a>
-          <a href="https://github.com/AxelothLeohryn/portfolio-web-react" className="py-4 px-2 lg:px-5 text-gray-400 flex gap-1 items-center glow-on-hover" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/AxelothLeohryn/portfolio-web-react" className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover" target="_blank" rel="noopener noreferrer">
             GitHub <ArrowOutwardIcon fontSize="small"/>
           </a>
             {/* <a className={linkStyles} href="#contact">

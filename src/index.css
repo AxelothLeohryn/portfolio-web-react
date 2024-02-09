@@ -23,8 +23,7 @@ body {
     background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(32, 166, 255, 0.3), rgba(255, 255, 255, 0)); */
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    overscroll-behavior: none;
+    /* min-height: 100vh; */
 }
 
 body.bg-home {

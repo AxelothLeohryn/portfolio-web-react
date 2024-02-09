@@ -9,26 +9,8 @@ function App() {
   //Changing the background color of the body based on the section
   const sections = ["#home-sentinel", "#experience", "#projects", "#about", "#contact"];
   const activeSection = useSectionObserver(sections, {
-    threshold: [0.25],
+    threshold: [0.2, 0.5, 0.8, 1],
   });
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const isTop = window.scrollY < 0.1; // You can adjust the value as needed
-  //     if (isTop) {
-  //       document.body.className = "bg-home";
-  //     } else if (!isTop && document.body.className === "bg-home") {
-  //       // Optionally, reset to default or do nothing, depending on your setup
-  //       // document.body.className = '';
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   useEffect(() => {
     // Here, you map section IDs to specific body classes

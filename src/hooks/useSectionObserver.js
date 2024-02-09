@@ -5,18 +5,22 @@ const useSectionObserver = (sections, options) => {
   const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Check if the sentinel is intersecting
-          if (entry.target.id === "home-sentinel") {
-            setActiveSection("home");
-          } else {
-            setActiveSection(entry.target.id);
+    const observer = new IntersectionObserver(
+      debounce((entries) => {
+        entries.forEach((entry) => {
+          if(window.scrollY === 0) setActiveSection("home");
+          if (entry.isIntersecting) {
+            // Check if the sentinel is intersecting
+            if (entry.target.id === "home-sentinel") {
+              setActiveSection("home");
+            } else {
+              setActiveSection(entry.target.id);
+            }
           }
-        }
-      });
-    }, options);
+        });
+      }, 100),
+      options
+    );
 
     sections.forEach((section) => {
       const sectionEl = document.querySelector(section);
