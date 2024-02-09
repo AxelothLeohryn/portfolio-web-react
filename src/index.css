@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,18 +11,63 @@
 }
 
 html {
-    font-family: "Onest", system-ui, sans-serif;
+    /* font-family: "Onest", system-ui, sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: rgb(20, 20, 20);
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(32, 166, 255, 0.3), rgba(255, 255, 255, 0));
+    /* background-color: rgb(20, 20, 20);
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(32, 166, 255, 0.3), rgba(255, 255, 255, 0)); */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overscroll-behavior: none;
 }
+
+body.bg-home {
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(0, 153, 255, 0.3), rgba(255, 255, 255, 0));
+  }
+  
+  body.bg-experience {
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(0, 60, 255, 0.3), rgba(255, 255, 255, 0));
+  }
+  
+  body.bg-projects {
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(173, 192, 255, 0.3), rgba(255, 255, 255, 0));
+  }
+  
+  body.bg-about {
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 198, 198, 0.3), rgba(255, 255, 255, 0));
+  }
+  
+  body.bg-contact {
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(198, 120, 198, 0.3), rgba(255, 255, 255, 0));
+  }
+  body.bg-home,
+body.bg-experience,
+body.bg-projects,
+body.bg-about,
+body.bg-contact {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.glow-on-hover {
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 5px white;
+}
+
+
+
 
 @media (prefers-reduced-motion: reduce) {
     html {
@@ -42,6 +90,18 @@ body {
 }
 
 @keyframes slideFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceFromBottom {
     0% {
         transform: translateY(100%);
         opacity: 0;
@@ -99,8 +159,8 @@ body {
 
     0%,
     100% {
-        transform: rotate(0deg) ;
-        
+        transform: rotate(0deg);
+
     }
 
     20%,
@@ -114,6 +174,7 @@ body {
         transform: rotate(15deg) translateY(-10px);
     }
 }
+
 @keyframes fadeOpacity {
     0% {
         opacity: 0;
@@ -130,7 +191,7 @@ body {
 }
 
 .slide-in-bottom {
-    animation: slideFromBottom 1.5s ease-out forwards;
+    animation: slideFromBottom 0.5s ease-out forwards;
 }
 
 .slide-in-left {
@@ -142,7 +203,7 @@ body {
 }
 
 .bouncy-slide-up {
-    animation: slideFromBottom 1s ease-out forwards;
+    animation: bounceFromBottom 1s ease-out forwards;
 }
 
 .wave {

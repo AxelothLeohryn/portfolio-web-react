@@ -18,17 +18,17 @@ const Main = () => {
 
   return (
     <main className="mx-auto lg:w-[900px] px-4 flex flex-col items-start fade">
-      <section id="home" className="py-36 pb-24 max-w-[1100px]">
-        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 pb:6 lg:pb-10">
-          <span className="wave my-auto sm:my-0">👋</span> Hello there! Soy Alex
+      <section id="home" className="py-36 max-w-[1100px]">
+        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
+          <span className="wave my-auto lg:my-0">👋</span> Hello there! <br className="lg:hidden" /> Soy Alex.
           <a
-            className="flex justify-center items-start slide-in-right"
+            className="flex justify-center items-start slide-in-bottom"
             href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
             target=" _blank"
             rel="noopener"
           >
             <img
-              className={`rounded-full size-[6rem] ml-4 outline-none hover:outline ${
+              className={`rounded-full w-[6rem] ml-4 outline-none hover:outline ${
                 isAvailable
                   ? "hover:outline-green-600"
                   : "hover:outline-red-600"
@@ -40,7 +40,7 @@ const Main = () => {
             />
 
             <span
-              className={`inline-flex items-center text-center absolute left-4 top-[4.4rem] justify-center shadow-xl ${
+              className={`inline-flex items-center text-center absolute left-4 top-[4.4rem] justify-center shadow-xl bouncy-slide-up ${
                 isAvailable ? "bg-green-400" : "bg-red-400"
               } ${
                 isPictureHovered
@@ -60,7 +60,7 @@ const Main = () => {
             </span>
           </a>
         </h1>
-        <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px]">
+        <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px] mt-8">
           <span className="text-cyan-100/90 fade">
             Desarrollador Fullstack Junior
           </span>{" "}
@@ -68,7 +68,7 @@ const Main = () => {
           trabajo en equipo y la creación de productos útiles y atractivos.{" "}
           <span className="opacity-80">De Madrid, España.</span>
         </h2>
-        <nav className="flex gap-4 mt-8 flex-wrap slide-in-top">
+        <nav className="flex gap-4 mt-8 flex-wrap slide-in-bottom">
           <SocialBadge
             text={"GitHub"}
             Icon={GitHubIcon}
@@ -89,14 +89,14 @@ const Main = () => {
         </nav>
       </section>
       <section id="experience" className="">
-        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <WorkIcon />
           Experiencia y Educación
         </h2>
         <Experience />
       </section>
-      <section id="projects" className="">
-        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center">
+      <section id="projects" className="mt-20">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <CodeIcon />
           Proyectos
         </h2>

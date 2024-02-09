@@ -15,30 +15,46 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
   }, []);
 
-  return (
-    <header
-      className={`py-3 w-full mx-auto gap-4 p-5 sticky top-0 z-10 transition duration-300 lg:bg-transparent ${
-        isScrolled ? "shadow-lg bg-black backdrop-filter backdrop-blur-3xl" : ""
-      }`}
-    >
-      <div className="max-w-[1220px] flex justify-center lg:justify-between items-center mx-auto">
-        <a href="#home">
-          <img
-            className="rounded-full size-10 hidden lg:flex"
-            src="/logo.png"
-            alt="Logo"
-          />
-        </a>
+  const linkStyles = "py-4 glow-on-hover px-2 lg:px-5";
 
-        <nav className="flex flex-row text-sm lg:text-lg gap-4 lg:gap-x-10 opacity-80">
-          <a href="#home">Inicio</a>
-          <a href="#experience">Experiencia</a>
-          <a href="#projects">Proyectos</a>
-          <a href="#about">Sobre mí</a>
-          <a href="#contact">Contacto</a>
-        </nav>
-      </div>
-    </header>
+  return (
+    <>
+      <header
+        className={` w-full mx-auto gap-4 sticky top-0 z-10 transition duration-300 ${
+          isScrolled
+            ? "shadow-lg bg-black/50 backdrop-filter backdrop-blur-3xl"
+            : ""
+        }`}
+      >
+        <div className="max-w-[1220px] flex justify-center lg:justify-between items-center mx-auto">
+          <a href="#home">
+            <img
+              className="rounded-full size-10 hidden lg:flex"
+              src="/logo.png"
+              alt="Logo"
+            />
+          </a>
+
+          <nav className="flex flex-row text-sm lg:text-lg opacity-80 h-full">
+            <a className={linkStyles} href="#home">
+              Inicio
+            </a>
+            <a className={linkStyles} href="#experience">
+              Experiencia
+            </a>
+            <a className={linkStyles} href="#projects">
+              Proyectos
+            </a>
+            <a className={linkStyles} href="#about">
+              Sobre mí
+            </a>
+            <a className={linkStyles} href="#contact">
+              Contacto
+            </a>
+          </nav>
+        </div>
+      </header>
+    </>
   );
 };
 
