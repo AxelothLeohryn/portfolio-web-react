@@ -170,13 +170,13 @@ body.bg-contact {
 
     20%,
     60% {
-        transform: rotate(-5deg) translateY(-10px);
-        scale: 1.25;
+        transform: rotate(-5deg) translateY(-20px) translateX(-5px);
+        scale: 1.6;
     }
 
     40%,
     80% {
-        transform: rotate(15deg) translateY(-10px);
+        transform: rotate(15deg) translateY(-20px) translateX(-5px);
     }
 }
 
@@ -213,7 +213,7 @@ body.bg-contact {
 
 .wave {
     display: inline-block;
-    animation: waveAnimation 1s ease-in-out 0.5s;
+    animation: waveAnimation 1s ease-in-out 1s;
 }
 
 .fade {
