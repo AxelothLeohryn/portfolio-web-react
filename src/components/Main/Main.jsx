@@ -120,7 +120,7 @@ const Main = () => {
         <article className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 mx-5">
           <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4" >
             <p>
-              Me llamo Alejandro, aunque todos me llaman Alex. Me adentré en el
+              Me llamo Alejandro, aunque me suelen llamar Alex. Me adentré en el
               mundo de la programación en 2023, y desde entonces he encontrado
               una nueva carrera que me apasiona y me motiva a seguir
               experimentando y aprendiendo.
