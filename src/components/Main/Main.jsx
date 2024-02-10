@@ -19,8 +19,8 @@ const Main = () => {
   const isAvailable = true;
 
   return (
-    <main className="mx-auto lg:w-[1000px] px-5 flex flex-col items-start fade">
-      <section id="home" className="py-36 max-w-[1100px]">
+    <main className="mx-auto lg:w-[1000px] flex flex-col items-start fade">
+      <section id="home" className="py-36 max-w-[1100px] px-5">
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-full"></div>
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
           <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
@@ -92,14 +92,14 @@ const Main = () => {
           />
         </nav>
       </section>
-      <section id="experience" className="">
+      <section id="experience" className="px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <WorkIcon />
           Experiencia y Educación
         </h2>
         <Experience />
       </section>
-      <section id="projects" className="mt-20">
+      <section id="projects" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <CodeIcon />
           Proyectos
@@ -112,7 +112,7 @@ const Main = () => {
           ¡Entra en mi GitHub para ver más!
         </p>
       </section>
-      <section id="about" className="mt-20">
+      <section id="about" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <PeopleIcon />
           Sobre mí
