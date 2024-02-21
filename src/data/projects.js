@@ -20,6 +20,7 @@ export const projectList = [
     ],
     tags: [
       "REACT",
+      "VITE",
       "NODEJS",
       "EXPRESS",
       "MONGODB",
