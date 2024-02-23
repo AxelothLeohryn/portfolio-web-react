@@ -24,7 +24,7 @@ const Main = () => {
   return (
     <main className="mx-auto lg:w-[1000px] flex flex-col items-start fade">
       <section id="home" className="py-36 max-w-[1100px] px-5">
-        <div id="home-sentinel" className="absolute top-0 h-[1px] w-full"></div>
+        <div id="home-sentinel" className="absolute top-0 h-[1px] w-10"></div>
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
           <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
           <br className="lg:hidden" />{" "}

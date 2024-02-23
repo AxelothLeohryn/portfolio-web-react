@@ -5,7 +5,6 @@ import useSectionObserver from "./hooks/useSectionObserver";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import { Lan } from "@mui/icons-material";
 
 function App() {
   const [language, setLanguage] = useState("es");

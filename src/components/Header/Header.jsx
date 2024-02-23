@@ -92,7 +92,7 @@ const Header = ({ activeSection }) => {
               Contacto
             </a> */}
 
-            <label className="inline-flex items-center cursor-pointer absolute top-5 right-5">
+            <label className="xl:absolute inline-flex items-center cursor-pointer top-5 right-5">
               <span className="mr-2 text-sm font-medium text-gray-300">
                 ES
               </span>
