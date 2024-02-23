@@ -38,7 +38,7 @@ const Header = ({ activeSection }) => {
         }`}
       >
         <div className="max-w-[1220px] flex justify-center lg:justify-between items-center mx-auto">
-          <a href="" onClick={scrollToTop}>
+          <a href="#home" onClick={scrollToTop}>
             <img
               className="rounded-full size-10 hidden lg:flex"
               src="/logo.webp"
@@ -48,7 +48,7 @@ const Header = ({ activeSection }) => {
 
           <nav className="flex flex-row text-sm lg:text-lg opacity-80 h-full">
             <a
-              href=""
+              href="#home"
               className={`py-4 px-2 lg:px-5 glow-on-hover ${
                 isActive("home") ? "glowing-active" : ""
               }`}
