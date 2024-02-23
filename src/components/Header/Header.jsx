@@ -41,7 +41,7 @@ const Header = ({ activeSection }) => {
           <a href="" onClick={scrollToTop}>
             <img
               className="rounded-full size-10 hidden lg:flex"
-              src="/logo.png"
+              src="/logo.webp"
               alt="Logo"
             />
           </a>

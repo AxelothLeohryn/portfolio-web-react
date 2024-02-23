@@ -41,7 +41,7 @@ const Main = () => {
                   ? "hover:outline-green-600"
                   : "hover:outline-red-600"
               } hover:outline-green-600 transition duration-300`}
-              src="./profile-photo-min.png"
+              src="./profile-photo-min.webp"
               alt="Foto de perfil"
               onMouseEnter={() => setIsPictureHovered(true)}
               onMouseLeave={() => setIsPictureHovered(false)}
@@ -153,7 +153,7 @@ const Main = () => {
           </div>
           <img
             className="rounded-3xl size-56 aspect-square lg:size-60 mt-4 rotate-3 border-2 border-gray-200/90 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:drop-shadow-glow"
-            src="/about-me.jpg"
+            src="/about-me.webp"
             alt="Foto de Alex"
           />
         </article>
