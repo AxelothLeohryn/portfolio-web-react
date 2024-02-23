@@ -105,7 +105,7 @@ const Header = ({ activeSection }) => {
                   setLanguage(language);
                 }}
               />
-              <div className="relative w-7 h-5 lg:w-11 lg:h-6 bg-gray-600 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-1 after:start-1 lg:after:top-[2px] lg:after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-3 after:w-3 lg:after:h-5 lg:after:w-5 after:transition-all peer-checked:bg-gray-600"></div>
+              <div className="relative w-7 h-5 lg:w-11 lg:h-6 bg-gray-600 rounded-full peer peer-checked:after:translate-x-2 lg:peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-1 after:start-1 lg:after:top-[2px] lg:after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-3 after:w-3 lg:after:h-5 lg:after:w-5 after:transition-all peer-checked:bg-gray-600"></div>
               <span className="ml-1 lg:ml-2 text-xs lg:text-sm font-medium text-gray-300">
                 EN
               </span>
