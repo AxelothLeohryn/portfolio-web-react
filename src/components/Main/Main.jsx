@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { LanguageContext } from "../../context/languageContext";
+
 import SocialBadge from "./SocialBadge";
 import Experience from "./Experience";
 import Projects from "./Projects";
@@ -12,6 +14,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 
 const Main = () => {
+  const { language } = useContext(LanguageContext);
   // State to track hover status
   const [isPictureHovered, setIsPictureHovered] = useState(false);
 
@@ -24,7 +27,8 @@ const Main = () => {
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-full"></div>
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
           <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
-          <br className="lg:hidden" /> Soy Alex.
+          <br className="lg:hidden" />{" "}
+          {language === "en" ? "I'm Alex." : "Soy Alex."}
           <a
             className="flex justify-center items-start slide-in-bottom"
             href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
@@ -60,17 +64,25 @@ const Main = () => {
               onMouseEnter={() => setIsPictureHovered(true)}
               onMouseLeave={() => setIsPictureHovered(false)}
             >
-              {isAvailable ? "Disponible" : "No disponible"}
+              {language === "en"
+              ? `${isAvailable ? "Available" : "Not available"}`
+              :`${isAvailable ? "Disponible" : "No disponible"}`}
+              
             </span>
           </a>
         </h1>
         <h2 className="text-xl lg:text-2xl text-wrap max-w-[800px] mt-8">
           <span className="text-cyan-100/90 fade">
-            Desarrollador Fullstack Junior
+            {language === "en"
+              ? "Junior Fullstack Developer"
+              : "Desarrollador Fullstack Junior"}
           </span>{" "}
-          con background en Ciencias. Apasionado por el mundo del desarrollo, el
-          trabajo en equipo y la creación de productos útiles y atractivos.{" "}
-          <span className="opacity-80">De Madrid, España.</span>
+          {language === "en"
+            ? "with a background in Science. Passionate about the world of development, teamwork, and creating useful and appealing products."
+            : "con background en Ciencias. Apasionado por el mundo del desarrollo, el trabajo en equipo y la creación de productos útiles y atractivos."}{" "}
+          <span className="opacity-80">
+            {language === "en" ? "From Madrid, Spain" : "De Madrid, España"}
+          </span>
         </h2>
         <nav className="flex gap-4 mt-8 flex-wrap slide-in-bottom">
           <SocialBadge
@@ -95,48 +107,48 @@ const Main = () => {
       <section id="experience" className="px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <WorkIcon />
-          Experiencia y Educación
+          {language === "en"
+            ? "Experience and Education"
+            : "Experiencia y Educación"}
         </h2>
         <Experience />
       </section>
       <section id="projects" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <CodeIcon />
-          Proyectos
+          {language === "en" ? "Projects" : "Proyectos"}
         </h2>
         <Projects />
         <div className="w-full flex justify-center">
           <MoreHorizIcon fontSize="large" />
         </div>
         <p className="text-base font-normal text-gray-400 text-pretty mb-5">
-          ¡Entra en mi GitHub para ver más!
+          {language === "en"
+            ? "Check out my GitHub to see more!"
+            : "¡Entra en mi GitHub para ver más!"}
         </p>
       </section>
       <section id="about" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <PeopleIcon />
-          Sobre mí
+          {language === "en" ? "About me" : "Sobre mí"}
         </h2>
         <article className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 mx-5">
-          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4" >
+          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
             <p>
-              Me llamo Alejandro, aunque me suelen llamar Alex. Me adentré en el
-              mundo de la programación en 2023, y desde entonces he encontrado
-              una nueva carrera que me apasiona y me motiva a seguir
-              experimentando y aprendiendo.
+              {language === "en"
+                ? "My name is Alejandro, although I'm usually called Alex. I entered the world of programming in 2023, and since then I have found a new career that I am passionate about and motivates me to continue experimenting and learning."
+                : "Me llamo Alejandro, aunque me suelen llamar Alex. Me adentré en el mundo de la programación en 2023, y desde entonces he encontrado una nueva carrera que me apasiona y me motiva a seguir experimentando y aprendiendo."}
             </p>
             <p>
-              Disfruto muchísimo creando nuevas experiencias y herramientas
-              útiles, y resolviendo todos los mini-retos que van asomándose al
-              enfrentarse a cualquier proyecto.
+              {language === "en"
+                ? "I thoroughly enjoy creating new experiences and useful tools, and tackling all the challenges that arise when facing any project."
+                : "Disfruto muchísimo creando nuevas experiencias y herramientas útiles, y resolviendo todos los retos que van asomándose al enfrentarse a cualquier proyecto."}
             </p>
             <p>
-              Me considero una persona curiosa, creativa y colaborativa. Gracias
-              a mi paso por el bootcamp de The Bridge, estoy entrenado no solo
-              en los aspectos más técnicos del desarrollo, sino también en la
-              gestión de proyectos, el trabajo en equipo, la gestión de la
-              frustración y la capacidad de aprender nuevos frameworks y
-              herramientas (fan nº1 de <em>leer la documentación</em>).
+              {language === "en"
+                ? "I consider myself a curious, creative, and collaborative person. Thanks to my experience at The Bridge bootcamp, I am trained not only in the technical aspects of development, but also in project management, teamwork, frustration management, and the ability to learn new frameworks and tools (#1 fan of reading the documentation)."
+                : "Me considero una persona curiosa, creativa y colaborativa. Gracias a mi paso por el bootcamp de The Bridge, estoy entrenado no solo en los aspectos más técnicos del desarrollo, sino también en la gestión de proyectos, el trabajo en equipo, la gestión de la frustración y la capacidad de aprender nuevos frameworks y herramientas (fan nº1 de leer la documentación)."}
             </p>
           </div>
           <img

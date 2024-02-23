@@ -1,13 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext, useState } from "react";
+import { LanguageContext } from "./context/languageContext";
 import useSectionObserver from "./hooks/useSectionObserver";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import { Lan } from "@mui/icons-material";
 
 function App() {
+  const [language, setLanguage] = useState("es");
+
   //Changing the background color of the body based on the section
-  const sections = ["#home-sentinel", "#experience", "#projects", "#about", "#contact"];
+  const sections = [
+    "#home-sentinel",
+    "#experience",
+    "#projects",
+    "#about",
+    "#contact",
+  ];
   const activeSection = useSectionObserver(sections, {
     threshold: [0.2, 0.5, 0.8, 1],
   });
@@ -32,9 +42,11 @@ function App() {
 
   return (
     <>
+      <LanguageContext.Provider value={{ language, setLanguage }}>
         <Header activeSection={activeSection} />
         <Main />
         <Footer />
+      </LanguageContext.Provider>
     </>
   );
 }

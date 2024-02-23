@@ -53,10 +53,10 @@ body.bg-contact {
 }
 
 .glowing-active {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 1),
-        0 0 10px rgba(255, 255, 255, 1),
-        0 0 15px rgba(255, 255, 255, 1),
-        0 0 20px rgba(0, 150, 255, 0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+        /* 0 0 10px rgba(255, 255, 255, 1); */
+        /* 0 0 15px rgba(255, 255, 255, 1); */
+        /* 0 0 20px rgba(0, 150, 255, 0.7); */
     /* Add a color glow */
     color: #fff;
 }
