@@ -6,15 +6,19 @@ const ExperienceItem = ({
   date,
   link,
   linkDescription,
+  type,
 }) => {
+  const isWork = type === "work";
+  const isEducation = type === "education"; 
+
   return (
     <>
-      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+      <div className="absolute size-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time className="mb-1 text-sm font-normal leading-none text-gray-300 dark:text-gray-500">
         {date}
       </time>
       <div className="hover:bg-black/20 rounded-lg transition p-2">
-        <h3 className="text-lg font-semibold text-blue-400 my-4">{title}</h3>
+        <h3 className={`text-lg font-semibold ${isWork ? 'text-blue-400' : isEducation ? 'text-blue-200' : ''} my-4`}>{title}</h3>
         <p className="mb-4 text-base font-normal text-gray-400 dark:text-gray-100 text-pretty">
           {description}
         </p>
