@@ -84,7 +84,7 @@ const Main = () => {
             {language === "en" ? "From Madrid, Spain" : "De Madrid, España"}
           </span>
         </h2>
-        <nav className="flex gap-4 mt-8 flex-wrap slide-in-bottom">
+        <nav className="flex flex-col lg:flex-row gap-4 mt-8 flex-wrap slide-in-bottom">
           <SocialBadge
             text={"GitHub"}
             Icon={GitHubIcon}
