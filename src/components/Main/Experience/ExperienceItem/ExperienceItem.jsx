@@ -18,7 +18,7 @@ const ExperienceItem = ({
         {date}
       </time>
       <div className="hover:bg-black/20 rounded-lg transition p-2">
-        <h3 className={`text-lg font-semibold ${isWork ? 'text-blue-400' : isEducation ? 'text-blue-200' : ''} my-4`}>{title}</h3>
+        <h3 className={`text-lg font-semibold ${isWork ? 'text-blue-400' : isEducation ? 'text-blue-200' : ''} my-4`}>{isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}</h3>
         <p className="mb-4 text-base font-normal text-gray-400 dark:text-gray-100 text-pretty">
           {description}
         </p>
