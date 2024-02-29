@@ -5,11 +5,11 @@ import ProjectLinks from "./ProjectLinks";
 const ProjectItem = ({ project }) => {
   return (
     <>
-      <article className="flex flex-col mb-10 bg-black/10 rounded hover:bg-black/50  transition shadow-lg backdrop-filter backdrop-blur-3xl p-4 ">
+      <article className="flex flex-col mb-10 bg-black/10 rounded hover:bg-black/50 transition shadow-lg backdrop-filter backdrop-blur-3xl p-4 ">
         <h3 className="text-2xl font-semibold text-slate-300 mb-4">
           {project.title}
         </h3>
-        <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-5 ">
+        <div className="flex flex-col-reverse justify-between lg:flex-row lg:items-start gap-5 ">
           <section className="w-full lg:w-1/2">
             <section className="flex gap-2 flex-wrap mb-4 ">
               {project.tags.map((tag, id) => (
@@ -36,7 +36,7 @@ const ProjectItem = ({ project }) => {
             )}
             <ProjectLinks link={project.link} github={project.github} />
           </section>
-          <div className="max-w-96 lg:w-1/2 h-56 shadow-lg hover:drop-shadow-glow rounded-lg transition">
+          <div className=" lg:w-1/2 h-52 shadow-lg hover:drop-shadow-glow rounded-lg transition">
             <ProjectSlider images={project.images} />
           </div>
         </div>

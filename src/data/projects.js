@@ -1,5 +1,18 @@
 export const projectListES = [
   {
+    title: "Planorant - Valorant Premier Planner",
+    description:
+      "Planificador de equipos de Premier de Valorant. Añade miembros a tu equipo con códigos de invitación, establece la disponibilidad y agentes de cada miembro para cada semana. Sincronización con BBDD MongoDB. Chat en vivo (WIP).",
+    extraDescription: "Proyecto en desarrollo.",
+    link: "https://planorant.onrender.com",
+    github: "https://github.com/AxelothLeohryn/planorant",
+    images: [
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip2.png?raw=true",
+    ],
+    tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+  },
+  {
     title: "Reallo - Planificador de proyectos y tareas",
     description:
       "Aplicación web fullstack inspirada en Trello para la gestión de proyectos y tareas por usuario. Login y registro de usuarios, creación de tableros y listas, asignación de tareas a listas, y funcionalidad drag and drop. Tests de integración con Cypress. Mobile-first y diseño responsive.",
@@ -82,7 +95,7 @@ export const projectListES = [
     title: "MixTFT - Audio Mixer for Teamfight Tactics",
     description:
       "Aplicación web que permite a los jugadores de Teamfight Tactics (TFT) mezclar y escuchar las bandas sonoras de las diferentes composiciones del Set 10 del juego. Mobile-first y diseño responsive.",
-      extraDescription:"(Prueba a mezclar Pentakill con Maestro 🤘)",
+    extraDescription: "(Prueba a mezclar Pentakill con Maestro 🤘)",
     accessData: null,
     link: "https://axelothleohryn.github.io/MixTFT-web/",
     github: "https://github.com/AxelothLeohryn/MixTFT-web",
@@ -95,6 +108,19 @@ export const projectListES = [
 ];
 
 export const projectListEN = [
+  {
+    title: "Planorant - Valorant Premier Planner",
+    description:
+      "Premier Valorant team planner. Add members to your team with invitation codes, set availability and agents for each member for each week. Synchronization with MongoDB. Live chat (WIP).",
+    extraDescription: "Project in development.",
+    link: "https://planorant.onrender.com",
+    github: "https://github.com/AxelothLeohryn/planorant",
+    images: [
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip2.png?raw=true",
+    ],
+    tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+  },
   {
     title: "Reallo - Project and Task Planner",
     description:
@@ -159,8 +185,7 @@ export const projectListEN = [
     title: "Dismoviery - VanillaJS Frontend",
     description:
       'Web application built with VanillaJS connected to the external TMDB API that allows users to search for movies, filter results, and discover new favorites. Through Google Firebase and FireAuth, the site offers a rich user experience with features such as user authentication, favorites lists, and "Watch later".',
-    extraDescription:
-      "Register or use the access data to try the app!",
+    extraDescription: "Register or use the access data to try the app!",
     accessData: {
       user: "demo@gmail.com",
       password: "Demo123!",
@@ -178,7 +203,7 @@ export const projectListEN = [
     title: "MixTFT - Audio Mixer for Teamfight Tactics",
     description:
       "Web application that allows Teamfight Tactics (TFT) players to mix and listen to the soundtracks of the different compositions from Set 10 of the game. Mobile-first and responsive design.",
-      extraDescription:"(Try mixing Pentakill with Maestro 🤘)",
+    extraDescription: "(Try mixing Pentakill with Maestro 🤘)",
     accessData: null,
     link: "https://axelothleohryn.github.io/MixTFT-web/",
     github: "https://github.com/AxelothLeohryn/MixTFT-web",
