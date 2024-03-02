@@ -8,7 +8,8 @@ export const projectListES = [
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip2.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip4.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip5.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
@@ -117,7 +118,8 @@ export const projectListEN = [
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip2.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip4.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip5.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
