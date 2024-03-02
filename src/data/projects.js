@@ -2,7 +2,7 @@ export const projectListES = [
   {
     title: "Planorant - Valorant Premier Planner",
     description:
-      "Planificador de equipos de Premier de Valorant. Añade miembros a tu equipo con códigos de invitación, establece la disponibilidad y agentes de cada miembro para cada semana. Chat en directo, lista de usuarios Online. Sincronización con BBDD MongoDB.",
+      "Planificador de equipos de Premier de Valorant. Añade miembros a tu equipo con códigos de invitación, establece la disponibilidad y agentes de cada miembro para cada semana. Chat en directo para cada equipo, lista de usuarios Online. Sincronización con BBDD MongoDB.",
     extraDescription: "Proyecto en desarrollo.",
     link: "https://planorant.onrender.com",
     github: "https://github.com/AxelothLeohryn/planorant",
@@ -111,7 +111,7 @@ export const projectListEN = [
   {
     title: "Planorant - Valorant Premier Planner",
     description:
-      "Premier Valorant team planner. Add members to your team with invitation codes, set availability and agents for each member for each week. Live chat, list of Online users. Synchronization with MongoDB.",
+      "Premier Valorant team planner. Add members to your team with invitation codes, set availability and agents for each member for each week. Live chat for each team, list of Online users. Synchronization with MongoDB.",
     extraDescription: "Project in development.",
     link: "https://planorant.onrender.com",
     github: "https://github.com/AxelothLeohryn/planorant",
