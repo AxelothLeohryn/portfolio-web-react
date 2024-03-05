@@ -4,12 +4,12 @@ export const projectListES = [
     description:
       "Planificador de equipos de Premier de Valorant. Añade miembros a tu equipo con códigos de invitación, establece la disponibilidad y agentes de cada miembro para cada semana. Chat en directo para cada equipo, lista de usuarios Online. Sincronización con BBDD MongoDB.",
     extraDescription: "Proyecto en desarrollo.",
-    link: "https://planorant.onrender.com",
+    link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip4.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip5.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/login.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
@@ -114,12 +114,12 @@ export const projectListEN = [
     description:
       "Premier Valorant team planner. Add members to your team with invitation codes, set availability and agents for each member for each week. Live chat for each team, list of Online users. Synchronization with MongoDB.",
     extraDescription: "Project in development.",
-    link: "https://planorant.onrender.com",
+    link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip0.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip4.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/wip/wip5.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/login.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
