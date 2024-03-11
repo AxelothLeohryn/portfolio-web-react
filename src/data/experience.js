@@ -6,7 +6,7 @@ export const experienceListES = [
     //     "Desarrollo de mi portfolio personal, consolidación de conocimientos en JavaScript y React, además del aprendizaje continuo de nuevas tecnologías y mejores prácticas en el desarrollo web.",
     // },
     {
-        title: "Desarrollo Web Fullstack - The Bridge & Several Energy",
+        title: "Desarrollador Full Stack - The Bridge & Several Energy SL",
         date: "Enero 2024",
         description:
             "Desarrollo del Backend (NodeJS, ExpressJS) y Frontend (React) de una aplicación web para empresa de asesoría energética. Trabajo en equipo con departamentos de UX/UI, Data Science, Marketing, Ciberseguridad y Cloud/DevOps. Utilización de metodologías Agile y colaboración con Git. Participación en reuniones con cliente y presentación de resultados.",
@@ -56,7 +56,7 @@ export const experienceListEN = [
     //     "Development of my personal portfolio, consolidation of knowledge in JavaScript and React, as well as continuous learning of new technologies and best practices in web development.",
     // },
     {
-        title: "Fullstack Web Development - The Bridge & Several Energy",
+        title: "Fullstack Developer - The Bridge & Several Energy SL",
         date: "January 2024",
         description:
             "Development of the Backend (NodeJS, ExpressJS) and Frontend (React) of a web application for an energy consultancy company. Teamwork with UX/UI, Data Science, Marketing, Cybersecurity, and Cloud/DevOps departments. Use of Agile methodologies and collaboration with Git. Participation in client meetings and presentation of results.",
