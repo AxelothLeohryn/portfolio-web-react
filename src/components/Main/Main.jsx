@@ -22,13 +22,19 @@ const Main = () => {
   const isAvailable = true;
 
   return (
-    <main className="mx-auto lg:w-[1000px] flex flex-col items-start fade">
-      <section id="home" className="py-36 max-w-[1100px] px-5">
+    <main className="mx-auto lg:w-[900px] flex flex-col items-start fade">
+      <section id="home" className="pt-36 max-w-[900px] px-5">
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-10"></div>
-        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap">
-          <span className="wave my-auto lg:my-0">👋</span> Hello there!{" "}
-          <br className="lg:hidden" />{" "}
-          {language === "en" ? "I'm Alex." : "Soy Alex."}
+        <div className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap wrap">
+          <div className="flex flex-wrap w-min md:w-fit">
+            <div>
+              <span className="wave my-auto lg:my-0">👋</span>{" "}
+              <span className="bg-gradient-to-r from-[#21abb0] to-[#73d9f0] inline-block text-transparent bg-clip-text">
+                Hello there!
+              </span>
+            </div>
+            <span className="ml-5">{language === "en" ? "I'm Alex." : "Soy Alex."}</span>
+          </div>
           <a
             className="flex justify-center items-start slide-in-bottom"
             href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
@@ -65,30 +71,33 @@ const Main = () => {
               onMouseLeave={() => setIsPictureHovered(false)}
             >
               {language === "en"
-              ? `${isAvailable ? "Available" : "Not available"}`
-              :`${isAvailable ? "Disponible" : "No disponible"}`}
-              
+                ? `${isAvailable ? "Available" : "Not available"}`
+                : `${isAvailable ? "Disponible" : "No disponible"}`}
             </span>
           </a>
-        </h1>
+        </div>
         <h2 className="text-xl lg:text-2xl text-wrap max-w-[800px] mt-8">
-          <span className="text-cyan-100/90 fade">
+          <span className="bg-gradient-to-r from-[#50ffbc] to-[#07dbf7] inline-block text-transparent bg-clip-text">
             {language === "en"
-              ? "Junior Fullstack Developer"
-              : "Desarrollador Fullstack Junior"}
+              ? "Jr. Fullstack Developer"
+              : "Desarrollador Fullstack Jr."}
           </span>{" "}
           {language === "en"
             ? "with a background in Science. Passionate about the world of development, teamwork, and creating useful and appealing products."
             : "con background en Ciencias. Apasionado por el mundo del desarrollo, el trabajo en equipo y la creación de productos útiles y atractivos."}{" "}
-          <span className="opacity-80">
+          <span className="bg-gradient-to-r from-[#a9eeff] to-[#9bedff] inline-block text-transparent bg-clip-text">
             {language === "en" ? "From Madrid, Spain" : "De Madrid, España"}
           </span>
         </h2>
-        <nav className="flex flex-col lg:flex-row gap-4 mt-8 flex-wrap slide-in-bottom">
+        <nav
+          id="socials-nav"
+          className="flex flex-col lg:flex-row gap-4 mt-8 flex-wrap"
+        >
           <SocialBadge
             text={"GitHub"}
             Icon={GitHubIcon}
             link={"https://github.com/AxelothLeohryn"}
+            delay={"0.2s"} // Adjust the delay for the first child
           />
           <SocialBadge
             text={"LinkedIn"}
@@ -96,23 +105,17 @@ const Main = () => {
             link={
               "https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
             }
+            delay={"0.4s"} // Adjust the delay for the second child
           />
           <SocialBadge
             text={"alejandro.sanserg@gmail.com"}
             Icon={EmailIcon}
             link={"mailto:alejandro.sanserg@gmail.com"}
+            delay={"0.6s"} // Adjust the delay for the third child
           />
         </nav>
       </section>
-      <section id="experience" className="px-5">
-        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
-          <WorkIcon />
-          {language === "en"
-            ? "Experience and Education"
-            : "Experiencia y Educación"}
-        </h2>
-        <Experience />
-      </section>
+
       <section id="projects" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
           <CodeIcon />
@@ -127,6 +130,15 @@ const Main = () => {
             ? "Check out my GitHub to see more!"
             : "¡Entra en mi GitHub para ver más!"}
         </p>
+      </section>
+      <section id="experience" className="px-5">
+        <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">
+          <WorkIcon />
+          {language === "en"
+            ? "Experience and Education"
+            : "Experiencia y Educación"}
+        </h2>
+        <Experience />
       </section>
       <section id="about" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20">

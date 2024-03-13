@@ -3,13 +3,15 @@ import React from "react";
 const ExperienceItem = ({
   title,
   description,
+  items,
+  extraDescription,
   date,
   link,
   linkDescription,
   type,
 }) => {
   const isWork = type === "work";
-  const isEducation = type === "education"; 
+  const isEducation = type === "education";
 
   return (
     <>
@@ -18,11 +20,33 @@ const ExperienceItem = ({
         {date}
       </time>
       <div className="hover:bg-black/20 rounded-lg transition p-2">
-        <h3 className={`text-lg font-semibold ${isWork ? 'text-blue-400' : isEducation ? 'text-blue-200' : ''} my-4`}>{isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}</h3>
+        <h3
+          className={`text-lg font-semibold ${
+            isWork ? "text-blue-400" : isEducation ? "text-blue-200" : ""
+          } my-4`}
+        >
+          {isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}
+        </h3>
         <p className="mb-4 text-base font-normal text-gray-400 dark:text-gray-100 text-pretty">
           {description}
         </p>
-
+        {items && (
+          <ul className="list-disc pl-5 mb-5">
+            {items.map((item, id) => (
+              <li
+                key={id}
+                className="text-base font-normal text-gray-300 text-pretty"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        )}
+        {extraDescription && (
+          <p className="mb-4 text-base font-normal text-gray-400 dark:text-gray-100 text-pretty">
+            {extraDescription}
+          </p>
+        )}
         {link && (
           <>
             <a

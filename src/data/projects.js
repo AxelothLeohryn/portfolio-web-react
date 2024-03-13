@@ -2,23 +2,31 @@ export const projectListES = [
   {
     title: "Planorant - Valorant Premier Planner",
     description:
-      "Planificador de equipos de Premier de Valorant. Añade miembros a tu equipo con códigos de invitación, establece la disponibilidad y agentes de cada miembro para cada semana. Chat en directo para cada equipo, lista de usuarios Online. Sincronización con BBDD MongoDB.",
-    extraDescription: "Proyecto en desarrollo.",
+      "Planificador de equipos de Premier de Valorant.",
+    items: [
+      "Códigos de invitación para cada equipo.",
+      "Selección de disponibilidad y agentes para cada día de juego.",
+      'Chat en directo, lista de usuarios online, indicador de "Usuario escribiendo."',
+      "Sincronización con MongoDB.",
+      "Selector de temas y diseño responsive.",
+    ],
+    extraDescription: "Proyecto en desarrollo, +50 usuarios registrados.",
     link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/login.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
   {
     title: "Reallo - Planificador de proyectos y tareas",
     description:
-      "Aplicación web fullstack inspirada en Trello para la gestión de proyectos y tareas por usuario. Login y registro de usuarios, creación de tableros y listas, asignación de tareas a listas, y funcionalidad drag and drop. Tests de integración con Cypress. Mobile-first y diseño responsive.",
-    extraDescription:
-      "Actualmente en fase 2! (añadiendo funcionalidades y mejorando el diseño).",
+      "Aplicación web fullstack inspirada en Trello. Login y registro; CRUD tableros, listas y tareas; funcionalidad drag and drop. Tests de integración con Cypress. Mobile-first y diseño responsive.",
+    // extraDescription:
+    //   "Actualmente en fase 2! (añadiendo funcionalidades y mejorando el diseño).",
     accessData: {
       user: "demo@gmail.com",
       password: "Demo123!",
@@ -59,24 +67,12 @@ export const projectListES = [
     ],
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
-  {
-    title: "PokeApp - Pokedex con React",
-    description:
-      "Aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
-    extraDescription:
-      "SASS para estilos y diseño responsive. Notificaciones, colores dinámicos según el estado, debouncing, tests unitarios con Vitest y más!",
-    accessData: null,
-    link: "https://pokeapp-react-axeloth.netlify.app/",
-    github: "https://github.com/AxelothLeohryn/pokeapp-react",
-    images: [
-      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
-    ],
-    tags: ["REACT", "SASS", "VITE"],
-  },
+  
   {
     title: "Dismoviery - Frontend VanillaJS",
     description:
-      'Aplicación web construida con VanillaJS conectada a la API externa de TMDB que permite a los usuarios buscar películas, filtrar resultados y descubrir nuevos favoritos. Mediante Google Firebase y FireAuth, el sitio ofrece una experiencia de usuario rica con características como autenticación de usuarios, listas de favoritos y "Ver más tarde". ',
+      'Aplicación web construida con VanillaJS conectada a la API externa de TMDB. ',
+      items: ["Registro y autenticación de usuarios.", "Listas de favoritos y 'Ver más tarde'.", "Filtrado y búsqueda de películas.",'Sección "Discovery".', "Diseño responsive."],
     extraDescription:
       "Registrate o usa los datos de acceso para probar la app!",
     accessData: {
@@ -91,6 +87,21 @@ export const projectListES = [
       "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/desktop.png",
     ],
     tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
+  },
+  {
+    title: "PokeApp - Pokedex con React",
+    description:
+      "Aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
+      items: ["SASS para estilos y diseño responsive.", "Notificaciones, colores dinámicos según el tipo.", "Debouncing.", "Tests unitarios con Vitest."],
+    // extraDescription:
+    //   "SASS para estilos y diseño responsive. Notificaciones, colores dinámicos según el estado, debouncing, tests unitarios con Vitest y más!",
+    accessData: null,
+    link: "https://pokeapp-react-axeloth.netlify.app/",
+    github: "https://github.com/AxelothLeohryn/pokeapp-react",
+    images: [
+      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
+    ],
+    tags: ["REACT", "SASS", "VITE"],
   },
   {
     title: "MixTFT - Audio Mixer for Teamfight Tactics",
@@ -112,23 +123,25 @@ export const projectListEN = [
   {
     title: "Planorant - Valorant Premier Planner",
     description:
-      "Premier Valorant team planner. Add members to your team with invitation codes, set availability and agents for each member for each week. Live chat for each team, list of Online users. Synchronization with MongoDB.",
-    extraDescription: "Project in development.",
+      "Premier Valorant team planner.",
+      items: ["Invite codes for each team.", "Selection of availability and agents for each game day.", 'Live chat, list of online users, "User typing" indicator.', "Synchronization with MongoDB.", "Theme selector and responsive design."],
+    extraDescription: "Project in development, +50 registered users.",
     link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/login.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
   {
     title: "Reallo - Project and Task Planner",
     description:
-      "Fullstack web application inspired by Trello for project and task management per user. User login and registration, creation of boards and lists, assignment of tasks to lists, and drag and drop functionality. Integration tests with Cypress. Mobile-first and responsive design.",
-    extraDescription:
-      "Currently in phase 2! (adding features and improving design).",
+      "Fullstack web application inspired by Trello. Login and registration; CRUD boards, lists, and tasks; drag and drop functionality. Integration tests with Cypress. Mobile-first and responsive design.",
+    // extraDescription:
+    //   "Currently in phase 2! (adding features and improving design).",
     accessData: {
       user: "demo@gmail.com",
       password: "Demo123!",
@@ -169,24 +182,12 @@ export const projectListEN = [
     ],
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
-  {
-    title: "PokeApp - Pokedex with React",
-    description:
-      "React application that interacts with the PokeAPI to provide an interactive experience for Pokémon fans. Uses functional components of React and hooks like useState(), useEffect(), useContext(), and useParams() to manage state and side effects. It also allows adding new pokemons using react-hook-form and saving them in the context.",
-    extraDescription:
-      "SASS for styles and responsive design. Notifications, dynamic colors based on state, debouncing, unit tests with Vitest, and more!",
-    accessData: null,
-    link: "https://pokeapp-react-axeloth.netlify.app/",
-    github: "https://github.com/AxelothLeohryn/pokeapp-react",
-    images: [
-      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
-    ],
-    tags: ["REACT", "SASS", "VITE"],
-  },
+  
   {
     title: "Dismoviery - VanillaJS Frontend",
     description:
-      'Web application built with VanillaJS connected to the external TMDB API that allows users to search for movies, filter results, and discover new favorites. Through Google Firebase and FireAuth, the site offers a rich user experience with features such as user authentication, favorites lists, and "Watch later".',
+      'Web application built with VanillaJS connected to the external TMDB API.',
+      items: ["User registration and authentication.", "Favorites and 'Watch later' lists.", "Filtering and searching for movies.", "Discovery section.", "Responsive design."],
     extraDescription: "Register or use the access data to try the app!",
     accessData: {
       user: "demo@gmail.com",
@@ -200,6 +201,21 @@ export const projectListEN = [
       "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/desktop.png",
     ],
     tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
+  },
+  {
+    title: "PokeApp - Pokedex with React",
+    description:
+      "React application that interacts with the PokeAPI to provide an interactive experience for Pokémon fans. Uses functional components of React and hooks like useState(), useEffect(), useContext(), and useParams() to manage state and side effects. It also allows adding new pokemons using react-hook-form and saving them in the context.",
+      items: ["SASS for styles and responsive design.", "Notifications, dynamic colors based on type.", "Debouncing.", "Unit tests with Vitest."],
+    // extraDescription:
+    //   "SASS for styles and responsive design. Notifications, dynamic colors based on state, debouncing, unit tests with Vitest, and more!",
+    accessData: null,
+    link: "https://pokeapp-react-axeloth.netlify.app/",
+    github: "https://github.com/AxelothLeohryn/pokeapp-react",
+    images: [
+      "https://github.com/AxelothLeohryn/pokeapp-react/blob/main/src/assets/gifs/mobileview.gif?raw=true",
+    ],
+    tags: ["REACT", "SASS", "VITE"],
   },
   {
     title: "MixTFT - Audio Mixer for Teamfight Tactics",

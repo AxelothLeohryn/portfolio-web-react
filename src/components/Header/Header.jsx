@@ -57,14 +57,6 @@ const Header = ({ activeSection }) => {
               {language === "en" ? "Home" : "Inicio"}
             </a>
             <a
-              href="#experience"
-              className={`py-4 px-2 lg:px-5 glow-on-hover ${
-                isActive("experience") ? "glowing-active" : ""
-              }`}
-            >
-              {language === "en" ? "Experience" : "Experiencia"}
-            </a>
-            <a
               href="#projects"
               className={`py-4 px-2 lg:px-5 glow-on-hover ${
                 isActive("projects") ? "glowing-active" : ""
@@ -72,6 +64,15 @@ const Header = ({ activeSection }) => {
             >
               {language === "en" ? "Projects" : "Proyectos"}
             </a>
+            <a
+              href="#experience"
+              className={`py-4 px-2 lg:px-5 glow-on-hover ${
+                isActive("experience") ? "glowing-active" : ""
+              }`}
+            >
+              {language === "en" ? "Experience" : "Experiencia"}
+            </a>
+
             <a
               href="#about"
               className={`py-4 px-2 lg:px-5 glow-on-hover ${
