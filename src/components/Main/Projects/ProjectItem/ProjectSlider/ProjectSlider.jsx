@@ -16,6 +16,7 @@ const ProjectSlider = ({ images }) => {
           src={image}
           alt={`Proyecto ${index + 1}`}
           className="h-full object-cover hover:scale-[1.01] transition duration-300 ease-out"
+          loading="lazy"
         />
       ))}
     </Carousel>
