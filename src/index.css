@@ -56,14 +56,13 @@ body.bg-contact {
 }
 
 .glowing-active {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
-    /* 0 0 10px rgba(255, 255, 255, 1); */
-    /* 0 0 15px rgba(255, 255, 255, 1); */
-    /* 0 0 20px rgba(0, 150, 255, 0.7); */
-    /* Add a color glow */
-    color: #fff;
-}
-
+    display: inline-block;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #00f7ff, #ffffff); /* Background gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+  }
 
 .glow-on-hover {
     transition: text-shadow 0.3s ease-in-out;
@@ -71,7 +70,7 @@ body.bg-contact {
 
 .glow-on-hover:hover {
     text-shadow: 0 0 2px white;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px rgb(0, 225, 255);
 }
 
 

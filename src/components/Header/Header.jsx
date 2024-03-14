@@ -49,7 +49,7 @@ const Header = ({ activeSection }) => {
           <nav className="flex flex-row text-sm lg:text-lg opacity-80 h-full">
             <a
               href="#home"
-              className={`py-4 px-2 lg:px-5 glow-on-hover ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
                 isActive("home") ? "glowing-active" : ""
               }`}
               onClick={scrollToTop}
@@ -58,7 +58,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#projects"
-              className={`py-4 px-2 lg:px-5 glow-on-hover ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
                 isActive("projects") ? "glowing-active" : ""
               }`}
             >
@@ -66,7 +66,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#experience"
-              className={`py-4 px-2 lg:px-5 glow-on-hover ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
                 isActive("experience") ? "glowing-active" : ""
               }`}
             >
@@ -75,7 +75,7 @@ const Header = ({ activeSection }) => {
 
             <a
               href="#about"
-              className={`py-4 px-2 lg:px-5 glow-on-hover ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
                 isActive("about") ? "glowing-active" : ""
               }`}
             >
@@ -83,7 +83,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="https://github.com/AxelothLeohryn/portfolio-web-react"
-              className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover"
+              className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover rounded-full"
               target="_blank"
               rel="noopener noreferrer"
             >
