@@ -18,11 +18,14 @@ const ProjectItem = ({ project, additionalClasses }) => {
           </h3>
           <div className="flex flex-col-reverse justify-between gap-5">
             <section className="w-full">
+            <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
               <section className="flex gap-2 flex-wrap mb-4">
                 {project.tags.map((tag, id) => (
                   <ProjectTag key={id} tag={tag} />
                 ))}
+                
               </section>
+              
               <p className="text-base font-normal text-gray-300 text-pretty mb-5">
                 {project.description}
               </p>
