@@ -1,8 +1,7 @@
 export const projectListES = [
   {
     title: "Planorant - Valorant Premier Planner",
-    description:
-      "Planificador de equipos de Premier de Valorant.",
+    description: "Planificador de equipos de Premier de Valorant.",
     items: [
       "Códigos de invitación para cada equipo.",
       "Selección de disponibilidad y agentes para cada día de juego.",
@@ -20,6 +19,24 @@ export const projectListES = [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+  },
+  {
+    title: "iPhone 15 Pro Landing Page Clone",
+    description:
+      "Landing page del iPhone 15 pro con diseño responsive, animaciones y modelo 3D.",
+    items: [
+      "Slider de videos y progreso",
+      "GSAP para animaciones.",
+      "Modelo 3D con ThreeJS.",
+    ],
+    link: "https://alejandrosanserg-iphone-landing.netlify.app/",
+    github: "https://github.com/AxelothLeohryn/iphone-landing",
+    images: [
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/highlights.webp?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/raw/main/src/docs/readme-images/animations.webp?raw=true",
+    ],
+    tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
   {
     title: "Reallo - Planificador de proyectos y tareas",
@@ -67,12 +84,18 @@ export const projectListES = [
     ],
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
-  
+
   {
     title: "Dismoviery - Frontend VanillaJS",
     description:
-      'Aplicación web construida con VanillaJS conectada a la API externa de TMDB. ',
-      items: ["Registro y autenticación de usuarios.", "Listas de favoritos y 'Ver más tarde'.", "Filtrado y búsqueda de películas.",'Sección "Discovery".', "Diseño responsive."],
+      "Aplicación web construida con VanillaJS conectada a la API externa de TMDB. ",
+    items: [
+      "Registro y autenticación de usuarios.",
+      "Listas de favoritos y 'Ver más tarde'.",
+      "Filtrado y búsqueda de películas.",
+      'Sección "Discovery".',
+      "Diseño responsive.",
+    ],
     extraDescription:
       "Registrate o usa los datos de acceso para probar la app!",
     accessData: {
@@ -92,7 +115,12 @@ export const projectListES = [
     title: "PokeApp - Pokedex con React",
     description:
       "Aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
-      items: ["SASS para estilos y diseño responsive.", "Notificaciones, colores dinámicos según el tipo.", "Debouncing.", "Tests unitarios con Vitest."],
+    items: [
+      "SASS para estilos y diseño responsive.",
+      "Notificaciones, colores dinámicos según el tipo.",
+      "Debouncing.",
+      "Tests unitarios con Vitest.",
+    ],
     // extraDescription:
     //   "SASS para estilos y diseño responsive. Notificaciones, colores dinámicos según el estado, debouncing, tests unitarios con Vitest y más!",
     accessData: null,
@@ -122,9 +150,14 @@ export const projectListES = [
 export const projectListEN = [
   {
     title: "Planorant - Valorant Premier Planner",
-    description:
-      "Premier Valorant team planner.",
-      items: ["Invite codes for each team.", "Selection of availability and agents for each game day.", 'Live chat, list of online users, "User typing" indicator.', "Synchronization with MongoDB.", "Theme selector and responsive design."],
+    description: "Premier Valorant team planner.",
+    items: [
+      "Invite codes for each team.",
+      "Selection of availability and agents for each game day.",
+      'Live chat, list of online users, "User typing" indicator.',
+      "Synchronization with MongoDB.",
+      "Theme selector and responsive design.",
+    ],
     extraDescription: "Project in development, +50 registered users.",
     link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
@@ -135,6 +168,24 @@ export const projectListEN = [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+  },
+  {
+    title: "iPhone 15 Pro Landing Page Clone",
+    description:
+      "Landing page of the iPhone 15 pro with responsive design, animations and 3D model.",
+    items: [
+      "Video slider and progress bar.",
+      "GSAP for animations.",
+      "3D model with ThreeJS.",
+    ],
+    link: "https://alejandrosanserg-iphone-landing.netlify.app/",
+    github: "https://github.com/AxelothLeohryn/iphone-landing",
+    images: [
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/highlights.webp?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/raw/main/src/docs/readme-images/animations.webp?raw=true",
+    ],
+    tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
   {
     title: "Reallo - Project and Task Planner",
@@ -182,12 +233,18 @@ export const projectListEN = [
     ],
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
-  
+
   {
     title: "Dismoviery - VanillaJS Frontend",
     description:
-      'Web application built with VanillaJS connected to the external TMDB API.',
-      items: ["User registration and authentication.", "Favorites and 'Watch later' lists.", "Filtering and searching for movies.", "Discovery section.", "Responsive design."],
+      "Web application built with VanillaJS connected to the external TMDB API.",
+    items: [
+      "User registration and authentication.",
+      "Favorites and 'Watch later' lists.",
+      "Filtering and searching for movies.",
+      "Discovery section.",
+      "Responsive design.",
+    ],
     extraDescription: "Register or use the access data to try the app!",
     accessData: {
       user: "demo@gmail.com",
@@ -206,7 +263,12 @@ export const projectListEN = [
     title: "PokeApp - Pokedex with React",
     description:
       "React application that interacts with the PokeAPI to provide an interactive experience for Pokémon fans. Uses functional components of React and hooks like useState(), useEffect(), useContext(), and useParams() to manage state and side effects. It also allows adding new pokemons using react-hook-form and saving them in the context.",
-      items: ["SASS for styles and responsive design.", "Notifications, dynamic colors based on type.", "Debouncing.", "Unit tests with Vitest."],
+    items: [
+      "SASS for styles and responsive design.",
+      "Notifications, dynamic colors based on type.",
+      "Debouncing.",
+      "Unit tests with Vitest.",
+    ],
     // extraDescription:
     //   "SASS for styles and responsive design. Notifications, dynamic colors based on state, debouncing, unit tests with Vitest, and more!",
     accessData: null,

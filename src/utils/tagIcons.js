@@ -17,6 +17,7 @@ import Vite from "../assets/tag-icons/vite.svg";
 import ThreeJs from "../assets/tag-icons/threedotjs.svg";
 import OpenAI from "../assets/tag-icons/openai.svg";
 import Firebase from "../assets/tag-icons/firebase.svg";
+import Gsap from "../assets/tag-icons/gsap.svg";
 
 // Map of tags to their corresponding SVG components
 const tagColors = {
@@ -39,6 +40,7 @@ const tagColors = {
   THREEJS: "#FFFFFF", 
   OPENAI: "#412991", 
   FIREBASE: "#FFCA28",
+  GSAP: "#88CE02",
 };
 const tagIcons = {
   ASTRO: { icon: Astro, color: tagColors.ASTRO },
@@ -60,6 +62,7 @@ const tagIcons = {
   THREEJS: { icon: ThreeJs, color: tagColors.THREEJS },
   OPENAI: { icon: OpenAI, color: tagColors.OPENAI },
   FIREBASE: { icon: Firebase, color: tagColors.FIREBASE },
+  GSAP: { icon: Gsap, color: tagColors.GSAP },
 };
 
 export default tagIcons;
