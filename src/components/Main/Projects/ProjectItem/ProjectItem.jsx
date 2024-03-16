@@ -10,22 +10,21 @@ const ProjectItem = ({ project, additionalClasses }) => {
   return (
     <>
       <article
-        className={`flex flex-col justify-between mb-10 bg-black/10 rounded border border-black/50 hover:bg-black/50 transition shadow-lg backdrop-filter backdrop-blur-3xl p-4 ${additionalClasses}`}
+        className={`flex flex-col justify-between mb-10 bg-black/40 rounded border border-black/50 hover:bg-black/60 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl p-6 ${additionalClasses}`}
       >
         <div>
-          <h3 className="text-2xl font-semibold text-slate-300 mb-4">
+          <h3 className="text-2xl font-bold text-slate-300 mb-6">
             {project.title}
           </h3>
           <div className="flex flex-col-reverse justify-between gap-5">
             <section className="w-full">
-            <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+              <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
               <section className="flex gap-2 flex-wrap mb-4">
                 {project.tags.map((tag, id) => (
                   <ProjectTag key={id} tag={tag} />
                 ))}
-                
               </section>
-              
+
               <p className="text-base font-normal text-gray-300 text-pretty mb-5">
                 {project.description}
               </p>
