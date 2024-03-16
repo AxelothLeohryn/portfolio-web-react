@@ -11,14 +11,14 @@ const useSectionObserver = (sections, options) => {
           if(window.scrollY === 0) setActiveSection("home");
           if (entry.isIntersecting) {
             // Check if the sentinel is intersecting
-            if (entry.target.id === "home-sentinel") {
+            if (entry.target.id === "home") {
               setActiveSection("home");
             } else {
               setActiveSection(entry.target.id);
             }
           }
         });
-      }, 100),
+      }, 1),
       options
     );
 

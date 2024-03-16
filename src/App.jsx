@@ -11,20 +11,20 @@ function App() {
 
   //Changing the background color of the body based on the section
   const sections = [
-    "#home-sentinel",
+    "#home",
     "#experience",
     "#projects",
     "#about",
     "#contact",
   ];
   const activeSection = useSectionObserver(sections, {
-    threshold: [0.2, 0.5, 0.8, 1],
+    rootMargin: "-50% 0px -50% 0px",
   });
 
   useEffect(() => {
     // Here, you map section IDs to specific body classes
     const sectionToBodyClass = {
-      "": "", // default
+      "": "bg-home", // default
       home: "bg-home",
       experience: "bg-experience",
       projects: "bg-projects",
@@ -37,6 +37,7 @@ function App() {
     if (sectionToBodyClass[activeSection]) {
       document.body.classList.add(sectionToBodyClass[activeSection]);
     }
+    
   }, [activeSection]);
 
   return (
