@@ -7,15 +7,19 @@ const ProjectSlider = ({ images }) => {
     <Carousel
       slide={false}
       pauseOnHover
-      leftControl={<ArrowBackIosIcon />}
-      rightControl={<ArrowForwardIosIcon />}
+      leftControl={
+        <ArrowBackIosIcon className="opacity-20 hover:opacity-100 transition-all" />
+      }
+      rightControl={
+        <ArrowForwardIosIcon className="opacity-20 hover:opacity-100 transition-all" />
+      }
     >
       {images.map((image, index) => (
         <img
           key={index}
           src={image}
           alt={`Proyecto ${index + 1}`}
-          className="h-full object-cover hover:scale-[1.01] transition duration-300 ease-out"
+          className="h-full object-cover transition duration-300 ease-out"
           loading="lazy"
         />
       ))}

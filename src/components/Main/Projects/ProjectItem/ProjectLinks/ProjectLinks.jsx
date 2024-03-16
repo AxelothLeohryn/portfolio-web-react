@@ -8,21 +8,21 @@ const ProjectLinks = ({ link, github }) => {
 const {language} = useContext(LanguageContext);
 
   return (
-    <div className="flex justify-start gap-4 w-full pt-6">
-      <Tooltip content={language === "en" ? "View project repository" : "Ver repositorio"} placement="bottom">
+    <div className="mx-auto flex justify-center gap-4 w-full">
+      <Tooltip content={language === "en" ? "Github" : "Github"} placement="top">
         <a
-          className="inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-gray-500"
+          className="rounded-full border border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-t from-[#4599bb] to-[#00cee9] transition-all"
           href={github}
           target="_blank"
           rel="noopener noreferrer"
         >
           <GitHubIcon />
-          {language === "en" ? "Source" : "Código"}
+          {language === "en" ? "Source" : "Repositorio"}
         </a>
       </Tooltip>
-      <Tooltip content={language === "en" ? "Deployed App (might take a while to load for demo projects)" : "Aplicación desplegada (puede tardar en cargar para projectos de demo)"} placement="bottom">
+      <Tooltip content={language === "en" ? "Deployed App (might take a while to load for demo projects)" : "Aplicación desplegada (puede tardar en cargar para projectos de demo)"} placement="top">
         <a
-          className="inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-gray-500"
+          className="rounded border border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-t from-[#4599bb] to-[#00cee9] transition-all"
           href={link}
           target="_blank"
           rel="noopener noreferrer"

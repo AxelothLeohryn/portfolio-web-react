@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {projectList.map((project, index) => {
         // Apply different styling for the first project item
-        const itemStyle = index === 0 || index === 3
+        const itemStyle = index === 0
           ? "md:col-span-2 shadow-lg transform transition duration-500"
           : "col-span-1 shadow-md transform transition duration-500";
 
