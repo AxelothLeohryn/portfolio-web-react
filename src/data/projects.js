@@ -18,7 +18,7 @@ export const projectListES = [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
-    tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+    tags: ["REACT", "TAILWINDCSS", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
   {
     title: "iPhone 15 Pro Landing Page Clone",
@@ -167,7 +167,7 @@ export const projectListEN = [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
-    tags: ["REACT", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
+    tags: ["REACT", "TAILWINDCSS", "VITE", "NODEJS", "EXPRESS", "MONGODB", "DOCKER"],
   },
   {
     title: "iPhone 15 Pro Landing Page Clone",
