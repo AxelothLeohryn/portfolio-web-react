@@ -97,7 +97,7 @@ const Main = () => {
             />
 
             <span
-              className={`inline-flex items-center text-center absolute left-4 top-36 justify-center shadow-xl bouncy-slide-up ${
+              className={`hidden md:inline-flex items-center text-center absolute left-4 top-36 justify-center shadow-xl bouncy-slide-up ${
                 isAvailable ? "bg-green-400" : "bg-red-400"
               } ${
                 isPictureHovered

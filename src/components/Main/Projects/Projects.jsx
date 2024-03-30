@@ -19,13 +19,14 @@ const Projects = () => {
 
     projectsToAnimate.forEach((projectToAnimate, index) => {
       gsap.from(projectToAnimate, {
-        opacity: 0.5,
-        scale: 1.1,
+        opacity: 1,
+        scale: 0.75,
         y: 100,
-        x: index % 2 === 0 ? window.innerWidth / 2 : -window.innerWidth / 2,
+        x: index % 2 === 0 ? window.innerWidth / 20 : -window.innerWidth / 20,
         scrollTrigger: {
           trigger: projectToAnimate,
         },
+        delay: 0,
         
       });
     });

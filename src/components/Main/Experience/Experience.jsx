@@ -13,7 +13,7 @@ const Experience = () => {
 
   useGSAP(() => {
 
-    const elements = ref.current.querySelectorAll('li');
+    const elements = ref.current.querySelectorAll('ul');
     gsap.from(elements, {
       opacity: 0,
       x: 300,

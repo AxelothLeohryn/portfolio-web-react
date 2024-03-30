@@ -82,12 +82,12 @@ const Header = ({ activeSection }) => {
               {language === "en" ? "About me" : "Sobre mí"}
             </a>
             <a
-              href="https://github.com/AxelothLeohryn/portfolio-web-react"
+              href={language === "en" ? "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf" : "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20-%20Alejandro%20Sanchez%20Sergueev.pdf"}
               className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover rounded-full"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub <ArrowOutwardIcon fontSize="small" />
+              CV <ArrowOutwardIcon fontSize="small" />
             </a>
             {/* <a className={linkStyles} href="#contact">
               Contacto
