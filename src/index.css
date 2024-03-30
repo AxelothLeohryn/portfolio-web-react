@@ -5,6 +5,9 @@
 
 :root {
     color-scheme: dark only;
+    --gradient-start: aqua;
+    --gradient-middle: aqua;
+    --gradient-end: aqua;
 }
 
 html {
@@ -26,13 +29,13 @@ body.bg-home {
 }
 
 body.bg-projects {
-    background-image: radial-gradient(ellipse 80% 100% at 50% -20%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    
+    background-image: radial-gradient(ellipse 80% 100% at 50% -20%, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+
 }
 
 body.bg-experience {
     background-image: radial-gradient(ellipse 80% 80% at 100% 50%, rgba(0, 153, 255, 0.3), rgba(255, 255, 255, 0));
-    
+
 
 }
 
@@ -58,14 +61,15 @@ body.bg-contact {
 .glowing-active {
     display: inline-block;
     color: transparent;
-    background-image: linear-gradient(to bottom, #00f7ff, #ffffff); /* Background gradient */
+    background-image: linear-gradient(to bottom, #00f7ff, #ffffff);
+    /* Background gradient */
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: bolder;
-  }
+}
 
 .glow-on-hover {
-    transition: text-shadow 0.3s ease-in-out;
+    transition: text-shadow 0.2s ease-in-out;
 }
 
 .glow-on-hover:hover {
@@ -195,7 +199,7 @@ body.bg-contact {
 
 .slide-in-top {
     animation: slideFromTop 0.5s ease-out forwards;
-    
+
 }
 
 .slide-in-bottom {
@@ -223,22 +227,19 @@ body.bg-contact {
     animation: fadeOpacity 1s ease-out forwards;
 }
 
-#socials-nav > * {
+#socials-nav>* {
     opacity: 0;
     animation: slideFromTop 0.5s ease forwards;
-  }
-  
-  #socials-nav > :nth-child(1) {
+}
+
+#socials-nav> :nth-child(1) {
     animation-delay: 0.2s;
-  }
-  
-  #socials-nav > :nth-child(2) {
+}
+
+#socials-nav> :nth-child(2) {
     animation-delay: 0.4s;
-  }
-  
-  #socials-nav > :nth-child(3) {
+}
+
+#socials-nav> :nth-child(3) {
     animation-delay: 0.6s;
-  }
-
-
-  
+}

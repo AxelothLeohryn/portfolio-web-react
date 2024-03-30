@@ -11,7 +11,7 @@ export default {
       dropShadow: {
         glow: [
           "0 0px 2px white", // Light blue shadow
-          "0 0px 20px rgba(255, 255, 255, 0.1)"   // Light blue shadow
+          "0 0px 20px rgba(255, 255, 255, 0.1)", // Light blue shadow
         ],
       },
       spacing: {

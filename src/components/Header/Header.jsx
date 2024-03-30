@@ -49,7 +49,7 @@ const Header = ({ activeSection }) => {
           <nav className="flex flex-row text-sm lg:text-lg opacity-80 h-full">
             <a
               href="#home"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full text-white ${
                 isActive("home") ? "glowing-active" : ""
               }`}
               onClick={scrollToTop}
@@ -58,7 +58,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#projects"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full text-white ${
                 isActive("projects") ? "glowing-active" : ""
               }`}
             >
@@ -66,7 +66,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#experience"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full text-white ${
                 isActive("experience") ? "glowing-active" : ""
               }`}
             >
@@ -75,7 +75,7 @@ const Header = ({ activeSection }) => {
 
             <a
               href="#about"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-full text-white ${
                 isActive("about") ? "glowing-active" : ""
               }`}
             >
@@ -111,6 +111,7 @@ const Header = ({ activeSection }) => {
                 EN
               </span>
             </label>
+
             {/* <label className="inline-flex items-center cursor-pointer xl:absolute top-5 right-5">
               <span className="mr-2 text-xs lg:text-sm font-medium text-gray-300">
                 ES
@@ -131,6 +132,7 @@ const Header = ({ activeSection }) => {
             </label> */}
           </nav>
         </div>
+        <div className="w-[100vw] absolute left-0 top-0 z-10 pt-0.5 rounded-full bg-gradient-to-r from-[var(--gradient-start)] via-[var(--gradient-middle)] to-[var(--gradient-end)] opacity-70" />
       </header>
     </>
   );

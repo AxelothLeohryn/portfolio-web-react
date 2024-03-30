@@ -13,7 +13,7 @@ const ProjectTag = ({ tag }) => {
 
   return (
     <span
-      className="bg-gray-800 text-slate-100 text-[0.6rem] font-medium inline-flex items-center px-2.5 py-1 rounded-b-lg hover:scale-110 transition cursor-pointer"
+      className="project-tag bg-gray-800 text-slate-100 text-[0.6rem] font-medium inline-flex items-center px-2.5 py-1 rounded-b-lg hover:scale-110 transition cursor-pointer"
       style={style}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
