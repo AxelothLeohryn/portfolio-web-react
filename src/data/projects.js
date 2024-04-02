@@ -14,6 +14,7 @@ export const projectListES = [
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/agents.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
@@ -163,6 +164,7 @@ export const projectListEN = [
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/agents.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
