@@ -15,11 +15,11 @@ const ExperienceItem = ({
 
   return (
     <>
-      <div className="absolute size-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time className="mb-1 text-sm font-normal leading-none text-gray-300 dark:text-gray-500">
-        {date}
-      </time>
-      <div className="hover:bg-black/20 rounded-lg transition p-2">
+      <div className="absolute size-3 bg-gray-700 rounded-full mt-1.5 -start-1.5 border border-gray-900"></div>
+      <div className="bg-neutral-900/60 border border-neutral-900 rounded-r-3xl transition p-5 max-w-[900px]">
+        <time className="mb-1 text-sm font-normal leading-none text-gray-300 dark:text-gray-500">
+          {date}
+        </time>
         <h3
           className={`text-lg font-semibold ${
             isWork ? "text-blue-400" : isEducation ? "text-blue-200" : ""

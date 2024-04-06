@@ -14,6 +14,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import TechStack from "./TechStack";
 
 const Main = () => {
   const { language } = useContext(LanguageContext);
@@ -63,6 +64,7 @@ const Main = () => {
     <main className="mx-auto lg:w-[1200px] flex flex-col items-start fade overflow-hidden">
       <section id="home" className="pt-36 max-w-[1200px] mx-auto px-5 md:pb-28">
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-10"></div>
+        <div className="mx-5">
         <div className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row items-end gap-x-4 text-nowrap wrap">
           <div className="flex flex-wrap w-min md:w-fit">
             <div>
@@ -157,6 +159,8 @@ const Main = () => {
             delay={"0.6s"} // Adjust the delay for the third child
           />
         </nav>
+        </div>
+        <TechStack />
       </section>
       <section id="projects" className="mt-20 px-5">
         <h2 className="text-3xl font-semibold mb-6 flex gap-x-4 items-center mt-20 text-white">

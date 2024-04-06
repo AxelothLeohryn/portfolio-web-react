@@ -18,7 +18,7 @@ const ProjectTag = ({ tag }) => {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <img className="size-5 me-1.5" src={IconComponent} alt={tag} />
+      <img className="size-5 me-1.5 text-white" src={IconComponent} alt={tag} />
       {tag.charAt(0).toUpperCase() + tag.slice(1).toLowerCase()}
     </span>
   );

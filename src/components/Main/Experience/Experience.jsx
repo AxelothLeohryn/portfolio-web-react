@@ -13,7 +13,7 @@ const Experience = () => {
 
   useGSAP(() => {
 
-    const elements = ref.current.querySelectorAll('ul');
+    const elements = ref.current.getElementsByClassName("experience-item");
     gsap.from(elements, {
       opacity: 0,
       x: 300,
@@ -29,7 +29,7 @@ const Experience = () => {
       <ol ref={ref} className="relative border-s border-gray-200 dark:border-gray-700 ml-3">
         {language === "es" &&
           experienceListES.map((experience) => (
-            <li className="mb-10 ms-4" key={experience.title}>
+            <li className="experience-item mb-10 ms-4" key={experience.title}>
               <ExperienceItem {...experience} />
             </li>
           ))}
