@@ -75,6 +75,7 @@ body.bg-contact {
 .glow-on-hover:hover {
     text-shadow: 0 0 2px white;
     text-shadow: 0 0 10px rgb(0, 225, 255);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 

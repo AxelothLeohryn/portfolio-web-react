@@ -61,7 +61,7 @@ const Main = () => {
   }, []);
 
   return (
-    <main className="mx-auto lg:w-[1200px] flex flex-col items-start fade overflow-hidden">
+    <main className="mx-auto lg:w-[1200px] flex flex-col items-start fade overflow-hidden md:overflow-visible">
       <section id="home" className="pt-36 max-w-[1200px] mx-auto px-5 md:pb-28">
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-10"></div>
         <div className="mx-5">

@@ -22,7 +22,7 @@ const Projects = () => {
         opacity: 1,
         scale: 1,
         y: 0,
-        x: index % 2 === 0 ? -200 : 200,
+        x: index % 2 === 0 ? -50 : 50,
         zIndex: index % 2 === 0 ? 1 : 0,
         scrollTrigger: {
           trigger: projectToAnimate,
