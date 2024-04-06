@@ -13,13 +13,13 @@ const ProjectTag = ({ tag }) => {
 
   return (
     <span
-      className="project-tag bg-gray-800 text-slate-100 text-[0.6rem] font-medium inline-flex items-center px-2.5 py-1 rounded-b-lg hover:scale-110 transition cursor-pointer"
+      className="project-tag bg-gray-900 text-slate-300 text-[0.6rem] md:text-[0.8rem] font-semibold inline-flex items-center px-2.5 py-1 rounded-b-xl hover:scale-110 transition cursor-pointer"
       style={style}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
       <img className="size-5 me-1.5" src={IconComponent} alt={tag} />
-      {tag}
+      {tag.charAt(0).toUpperCase() + tag.slice(1).toLowerCase()}
     </span>
   );
 };

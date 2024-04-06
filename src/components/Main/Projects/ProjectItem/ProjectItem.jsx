@@ -10,7 +10,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
   return (
     <>
       <article
-        className={`flex flex-col justify-between mb-10 bg-black/40 rounded border border-black/50 hover:bg-black/60 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl p-6 ${additionalClasses}`}
+        className={`flex flex-col max-w-[900px] justify-between mb-10 bg-neutral-900 rounded-3xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl p-6 ${additionalClasses}`}
       >
         <div>
           <h3 className="text-2xl font-bold text-slate-300 mb-6">
@@ -46,7 +46,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
                 </p>
               )}
               {project.accessData && (
-                <span className="text-base font-normal text-gray-500 text-pretty mb-5">
+                <span className="text-base font-normal text-neutral-500 text-pretty mb-5">
                   <p>
                     <strong>{language === "en" ? "User:" : "Usuario"}</strong>{" "}
                     {project.accessData.user}

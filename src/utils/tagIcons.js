@@ -18,6 +18,10 @@ import ThreeJs from "../assets/tag-icons/threedotjs.svg";
 import OpenAI from "../assets/tag-icons/openai.svg";
 import Firebase from "../assets/tag-icons/firebase.svg";
 import Gsap from "../assets/tag-icons/gsap.svg";
+import NextJS from "../assets/tag-icons/nextdotjs.svg";
+import Typescript from "../assets/tag-icons/typescript.svg";
+import Clerk from "../assets/tag-icons/clerk.svg";
+import StreamLit from "../assets/tag-icons/streamlit.svg";
 
 // Map of tags to their corresponding SVG components
 const tagColors = {
@@ -41,6 +45,10 @@ const tagColors = {
   OPENAI: "#412991", 
   FIREBASE: "#FFCA28",
   GSAP: "#88CE02",
+  NEXTJS: "#000000",
+  TYPESCRIPT: "#007ACC",
+  CLERK: "#000000",
+  STREAMLIT: "#FF4B4B",
 };
 const tagIcons = {
   ASTRO: { icon: Astro, color: tagColors.ASTRO },
@@ -63,6 +71,10 @@ const tagIcons = {
   OPENAI: { icon: OpenAI, color: tagColors.OPENAI },
   FIREBASE: { icon: Firebase, color: tagColors.FIREBASE },
   GSAP: { icon: Gsap, color: tagColors.GSAP },
+  NEXTJS: { icon: NextJS, color: tagColors.NEXTJS },
+  TYPESCRIPT: { icon: Typescript, color: tagColors.TYPESCRIPT },
+  CLERK: { icon: Clerk, color: tagColors.CLERK },
+  STREAMLIT: { icon: StreamLit, color: tagColors.STREAMLIT },
 };
 
 export default tagIcons;

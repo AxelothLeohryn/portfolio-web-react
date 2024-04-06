@@ -20,14 +20,14 @@ const Projects = () => {
     projectsToAnimate.forEach((projectToAnimate, index) => {
       gsap.from(projectToAnimate, {
         opacity: 1,
-        scale: 0.75,
-        y: 100,
-        x: index % 2 === 0 ? window.innerWidth / 20 : -window.innerWidth / 20,
+        scale: 1,
+        y: 0,
+        x: index % 2 === 0 ? -200 : 200,
+        zIndex: index % 2 === 0 ? 1 : 0,
         scrollTrigger: {
           trigger: projectToAnimate,
         },
         delay: 0,
-        
       });
     });
   }, []);
@@ -41,7 +41,7 @@ const Projects = () => {
         // Apply different styling for the first project item
         const itemStyle =
           index === 0
-            ? "md:col-span-2 shadow-lg transform transition duration-500"
+            ? "md:col-span-1 shadow-lg transform transition duration-500"
             : "col-span-1 shadow-md transform transition duration-500";
 
         // Render the ProjectItem with conditional styling
