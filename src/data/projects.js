@@ -70,7 +70,7 @@ export const projectListES = [
     ],
   },
   {
-    title: "Diseñador de camisetas - 3D & IA",
+    title: "OpenAI & 3D Shirt Designer",
     description:
       "Aplicación web fullstack para visualizar diseños de camisetas en 3D y obtener diseños de la IA. ",
     extraDescription:
@@ -220,7 +220,7 @@ export const projectListEN = [
     ],
   },
   {
-    title: "T-Shirt Designer - 3D & AI",
+    title: "OpenAI & 3D Shirt Designer",
     description:
       "Fullstack web application to visualize 3D t-shirt designs and obtain designs from AI.",
     extraDescription:
