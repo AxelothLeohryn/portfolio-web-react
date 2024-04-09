@@ -71,7 +71,7 @@ const TechStack = () => {
               key={key}
               src={IconData.icon}
               alt={`${key} icon`}
-              className="opacity-0 w-[50px] h-auto cursor-pointer hover:rotate-90 transition-all duration-300 ease-in"
+              className="opacity-0 w-[50px] h-auto"
             />
           ) : null;
         })}
