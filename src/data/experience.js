@@ -6,7 +6,7 @@ export const experienceListES = [
   //     "Desarrollo de mi portfolio personal, consolidación de conocimientos en JavaScript y React, además del aprendizaje continuo de nuevas tecnologías y mejores prácticas en el desarrollo web.",
   // },
   {
-    title: "Desarrollo Web Fullstack - The Bridge & Several Energy",
+    title: "Desarrollo Web Fullstack - The Bridge & Several Energy SL",
     date: "Enero 2024",
     description:
       "Desarrollo de una aplicación web para empresa de asesoría energética.",
@@ -71,7 +71,7 @@ export const experienceListEN = [
   //     "Development of my personal portfolio, consolidation of knowledge in JavaScript and React, as well as continuous learning of new technologies and best practices in web development.",
   // },
   {
-    title: "Fullstack Web Development - The Bridge & Several Energy",
+    title: "Fullstack Web Development - The Bridge & Several Energy SL",
     date: "January 2024",
     description:
       "Development of a web application for an energy consultancy company.",
