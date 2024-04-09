@@ -9,7 +9,7 @@ export const experienceListES = [
     title: "Desarrollo Web Fullstack - The Bridge & Several Energy SL",
     date: "Enero 2024",
     description:
-      "Desarrollo de una aplicación web para empresa de asesoría energética.",
+      "Desarrollo de una aplicación web para empresa de asesoría energética. Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. La oferta fue declinada por incompatibilidad de localización.",
     items: [
       "Desarrollo del Backend con NodeJS y ExpressJS. Autenticación con JWT y base de datos SQL.",
       "Desarrollo del Frontend con React, SASS.",
@@ -74,7 +74,7 @@ export const experienceListEN = [
     title: "Fullstack Web Development - The Bridge & Several Energy SL",
     date: "January 2024",
     description:
-      "Development of a web application for an energy consultancy company.",
+      "Development of a web application for an energy consulting company. Upon successfully completing the project at Several Energy SL, I received an offer to join the team as a full-stack developer in a permanent position. The offer was declined due to location incompatibility.",
     items: [
       "Backend development with NodeJS and ExpressJS. JWT authentication and SQL database.",
       "Frontend development with React, SASS.",
