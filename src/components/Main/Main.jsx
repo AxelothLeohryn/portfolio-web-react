@@ -8,6 +8,7 @@ import Projects from "./Projects";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
+import ListAltIcon from '@mui/icons-material/ListAlt';
 import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
 import PeopleIcon from "@mui/icons-material/People";
@@ -156,6 +157,12 @@ const Main = () => {
             text={"alejandro.sanserg@gmail.com"}
             Icon={EmailIcon}
             link={"mailto:alejandro.sanserg@gmail.com"}
+            delay={"0.6s"} // Adjust the delay for the third child
+          />
+          <SocialBadge
+            text={"CV"}
+            Icon={ListAltIcon}
+            link={"https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20-%20Alejandro%20Sanchez%20Sergueev.pdf"}
             delay={"0.6s"} // Adjust the delay for the third child
           />
         </nav>
