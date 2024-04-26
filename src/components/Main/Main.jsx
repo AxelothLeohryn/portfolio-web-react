@@ -162,7 +162,7 @@ const Main = () => {
           <SocialBadge
             text={"CV"}
             Icon={ListAltIcon}
-            link={"https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20-%20Alejandro%20Sanchez%20Sergueev.pdf"}
+            link={"https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf"}
             delay={"0.6s"} // Adjust the delay for the third child
           />
         </nav>
