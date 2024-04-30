@@ -22,7 +22,7 @@ const ExperienceItem = ({
         </time>
         <h3
           className={`text-2xl font-semibold ${
-            isWork ? "text-blue-400" : isEducation ? "text-blue-400" : ""
+            isWork ? "text-blue-500" : isEducation ? "text-blue-500" : ""
           } my-4`}
         >
           {isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}

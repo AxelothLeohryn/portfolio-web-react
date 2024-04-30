@@ -6,7 +6,7 @@ export const experienceListES = [
   //     "Desarrollo de mi portfolio personal, consolidación de conocimientos en JavaScript y React, además del aprendizaje continuo de nuevas tecnologías y mejores prácticas en el desarrollo web.",
   // },
   {
-    title: "Desarrollador Web Fullstack - Several Energy SL",
+    title: "Fullstack Web Developer - Several Energy SL",
     date: "Enero 2024",
     description:
       "Desarrollo de una aplicación web para empresa de asesoría energética. Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. La oferta fue declinada por incompatibilidad de localización.",
