@@ -21,8 +21,8 @@ const Projects = () => {
       gsap.from(projectToAnimate, {
         opacity: 1,
         scale: 1,
-        y: 0,
-        x: index % 2 === 0 ? -50 : 50,
+        y: window.innerWidth > 900 ? 0 : 100,
+        x: index % 2 === 0 && window.innerWidth > 900 ? -100 : window.innerWidth > 900 ? 100 : 0,
         zIndex: index % 2 === 0 ? 1 : 0,
         scrollTrigger: {
           trigger: projectToAnimate,
