@@ -34,22 +34,22 @@ const Projects = () => {
 
   return (
     <div
-      className="project-list grid grid-cols-1 md:grid-cols-2 gap-4"
+      className="project-list grid grid-cols-1 md:grid-cols-2 gap-5"
       ref={scrollRef}
     >
       {projectList.map((project, index) => {
         // Apply different styling for the first project item
         const itemStyle =
           index === 0
-            ? "md:col-span-1 shadow-lg transform transition duration-500"
-            : "col-span-1 shadow-md transform transition duration-500";
+            ? "md:col-span-1 transform transition duration-500"
+            : "col-span-1 transform transition duration-500";
 
         // Render the ProjectItem with conditional styling
         return (
           <ProjectItem
             key={project.title}
             project={project}
-            additionalClasses={itemStyle}
+            // additionalClasses={itemStyle}
           />
         );
       })}

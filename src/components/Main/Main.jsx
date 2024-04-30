@@ -129,8 +129,8 @@ const Main = () => {
               : "Desarrollador Fullstack Jr."}
           </span>{" "}
           {language === "en"
-            ? "with a background in Science. Passionate about the world of development, teamwork, and creating useful and appealing products."
-            : "con background en Ciencias. Apasionado por el mundo del desarrollo, el trabajo en equipo y la creación de productos útiles y atractivos."}{" "}
+            ? "with a background in Science. Passionate about frontend development and UX/UI design, I enjoy creating complete web applications."
+            : "con background en Ciencias. Apasionado por el desarrollo frontend y el diseño de UX/UI, disfruto creando aplicaciones web completas."}{" "}
           <span className="bg-gradient-to-r from-[#a9eeff] to-[#9bedff] inline-block text-transparent bg-clip-text">
             {language === "en" ? "From Madrid, Spain" : "De Madrid, España"}
           </span>
