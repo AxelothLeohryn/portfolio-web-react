@@ -10,7 +10,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
   return (
     <>
       <article
-        className={`flex flex-col justify-between mb-10 bg-neutral-950 rounded-2xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
+        className={`flex flex-col justify-between mb-10 bg-neutral-900 rounded-2xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
       >
         <div>
           <div className="aspect-video transition">
