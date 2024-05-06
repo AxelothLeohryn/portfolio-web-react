@@ -5,7 +5,7 @@ const About = ({ language }) => {
     <article className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 mx-5">
       <div className="flex flex-col items-center place-content-start md:grid grid-cols-6 grid-rows-2 gap-4 [&>p]:text-pretty [&>p]:text-gray-400">
         <img
-          className="col-span-2 p-2 border-t-2 border-t-[var(--gradient-end)] border-l-2 border-l-[var(--gradient-end)] rounded-tl-md w-full aspect-square z-20 mt-4 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:rotate-1 hover:shadow-xl"
+          className="col-span-2 p-4 border-t-2 border-t-[var(--gradient-end)] border-l-2 border-l-[var(--gradient-end)] rounded-tl-md w-full aspect-square z-20 mt-4 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:rotate-1 hover:shadow-xl"
           src="/about-me.webp"
           alt="Foto de Alex"
         />
