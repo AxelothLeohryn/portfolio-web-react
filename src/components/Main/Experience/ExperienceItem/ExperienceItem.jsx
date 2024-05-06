@@ -16,7 +16,7 @@ const ExperienceItem = ({
   return (
     <>
       <div className="absolute size-3 bg-gray-500 rounded-full mt-1.5 -start-1.5 border border-gray-900"></div>
-      <div className="bg-neutral-950 border border-neutral-800 rounded-r-3xl transition p-5 max-w-[900px]">
+      <div className="transition p-5 max-w-[900px]">
         <time className="mb-1 text-sm font-normal leading-none text-gray-300">
           {date}
         </time>
@@ -27,7 +27,7 @@ const ExperienceItem = ({
         >
           {isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}
         </h3>
-        <p className="mb-4 text-base font-normal text-gray-400 text-pretty">
+        <p className="mb-4 text-base font-medium text-gray-400 text-pretty">
           {description}
         </p>
         {items && (
