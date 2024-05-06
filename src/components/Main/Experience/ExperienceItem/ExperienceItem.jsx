@@ -21,7 +21,7 @@ const ExperienceItem = ({
           {date}
         </time>
         <h3
-          className={`text-2xl font-semibold ${
+          className={`text-2xl font-bold ${
             isWork ? "text-blue-500" : isEducation ? "text-blue-500" : ""
           } my-4`}
         >
