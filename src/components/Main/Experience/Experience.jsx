@@ -20,6 +20,7 @@ const Experience = () => {
       stagger: 0.1,
       scrollTrigger: {
         trigger: ref.current,
+        toggleActions: "play none none reverse",
       },
     });
   }, []);

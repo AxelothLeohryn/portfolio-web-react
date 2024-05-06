@@ -16,6 +16,7 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import TechStack from "./TechStack";
+import About from "./About/About";
 
 const Main = () => {
   const { language } = useContext(LanguageContext);
@@ -62,7 +63,7 @@ const Main = () => {
   }, []);
 
   return (
-    <main className="mx-auto lg:w-[1200px] flex flex-col items-start fade overflow-hidden md:overflow-visible">
+    <main className="mx-auto lg:w-[1000px] flex flex-col items-start fade overflow-hidden md:overflow-visible">
       <section id="home" className="pt-36 max-w-[1200px] mx-auto px-5 md:pb-28">
         <div id="home-sentinel" className="absolute top-0 h-[1px] w-10"></div>
         <div className="mx-5">
@@ -198,30 +199,7 @@ const Main = () => {
           <PeopleIcon />
           {language === "en" ? "About me" : "Sobre mí"}
         </h2>
-        <article className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 mx-5">
-          <div className="flex flex-col [&>p]:text-pretty [&>p]:text-gray-400 [&>p]:text-lg [&>p]:mb-4">
-            <p>
-              {language === "en"
-                ? "🙋‍♂️ My name is Alejandro, although I'm usually called Alex. My passion is creating attractive and functional websites or interfaces, always trying to stay at the forefront of technologies and trends. I employ my Fullstack knowledge to create complete projects that are both visually appealing and user-friendly."
-                : "🙋‍♂️ Me llamo Alejandro, aunque me suelen llamar Alex. Mi pasión es crear sitios web o interfaces atractivas y funcionales, intentando ir siempre a la vanguardia de las tecnologías y las tendencias. Empleo mis conocimientos Fullstack para crear proyectos completos que son tanto visualmente atractivos como fáciles de usar."}
-            </p>
-            <p>
-              {language === "en"
-                ? "💡 I consider myself a curious, creative, and collaborative person, who enjoys solving all the challenges that arise when facing any project. Above all, I love to learn and incorporate new tools into my development arsenal."
-                : "💡 Me considero una persona curiosa, creativa y colaborativa, que disfruta resolviendo todos los retos que se presentan al enfrentarse a cualquier proyecto. Sobre todo, me encanta aprender e incorporar nuevas herramientas a mi arsenal de desarrollo."}
-            </p>
-            <p>
-              {language === "en"
-                ? "🎓 Thanks to my experience at The Bridge bootcamp, I am trained not only in the technical aspects of development but also in project management, teamwork, frustration management, and the ability to learn new frameworks and tools (☝️#1 fan of reading the documentation)."
-                : "🎓 Gracias a mi experiencia en el bootcamp de The Bridge, estoy capacitado no solo en los aspectos técnicos del desarrollo, sino también en la gestión de proyectos, el trabajo en equipo, la gestión de la frustración y la capacidad para aprender nuevos frameworks y herramientas (☝️fan nº1 de leer la documentación)."}
-            </p>
-          </div>
-          <img
-            className="rounded-3xl size-56 aspect-square lg:size-60 mt-4 rotate-3 border-2 border-gray-200/90 shadow-lg lg:mt-0 transition duration-300 hover:scale-[1.05] hover:drop-shadow-glow"
-            src="/about-me.webp"
-            alt="Foto de Alex"
-          />
-        </article>
+       <About language={language}/>
       </section>
     </main>
   );

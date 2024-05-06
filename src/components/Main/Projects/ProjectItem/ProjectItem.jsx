@@ -10,7 +10,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
   return (
     <>
       <article
-        className={`flex flex-col max-w-[900px] justify-between mb-10 bg-neutral-950 rounded-2xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
+        className={`flex flex-col justify-between mb-10 bg-neutral-950 rounded-2xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
       >
         <div>
           <div className="aspect-video transition">
@@ -19,7 +19,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
           <h3 className="text-2xl font-bold text-slate-300 px-6 py-6 text-pretty">
             {project.title}
           </h3>
-                <hr className="h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+          <hr className="h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
           <div className="p-6">
             <div className="flex flex-col justify-between gap-5">
               <section className="w-full">

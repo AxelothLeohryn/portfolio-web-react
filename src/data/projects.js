@@ -69,6 +69,22 @@ export const projectListES = [
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
   {
+    title: "OpenAI & 3D Shirt Designer",
+    description:
+      "Aplicación web fullstack para visualizar diseños de camisetas en 3D y obtener diseños de la IA. ",
+    extraDescription:
+      "Interfaz con colores dinámicos y fluida, adaptada a cualquier dispositivo, con la posibilidad de subir tus propios archivos como logos o texturas. Pregunta a la IA para generar nuevos logos y texturas.",
+    accessData: null,
+    link: "https://react-ai-shirt-designer.onrender.com/",
+    github: "https://github.com/AxelothLeohryn/react-ai-shirt-designer",
+    images: [
+      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/751shots_so.png?raw=true",
+      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/512shots_so.png?raw=true",
+      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/305shots_so.png?raw=true",
+    ],
+    tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
+  },
+  {
     title: "Reallo - Planificador de proyectos y tareas",
     description:
       "Aplicación web fullstack inspirada en Trello. Login y registro; CRUD tableros, listas y tareas; funcionalidad drag and drop. Tests de integración con Cypress. Mobile-first y diseño responsive.",
@@ -97,22 +113,6 @@ export const projectListES = [
       "CYPRESS",
       "DOCKER",
     ],
-  },
-  {
-    title: "OpenAI & 3D Shirt Designer",
-    description:
-      "Aplicación web fullstack para visualizar diseños de camisetas en 3D y obtener diseños de la IA. ",
-    extraDescription:
-      "Interfaz con colores dinámicos y fluida, adaptada a cualquier dispositivo, con la posibilidad de subir tus propios archivos como logos o texturas. Pregunta a la IA para generar nuevos logos y texturas.",
-    accessData: null,
-    link: "https://react-ai-shirt-designer.onrender.com/",
-    github: "https://github.com/AxelothLeohryn/react-ai-shirt-designer",
-    images: [
-      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/751shots_so.png?raw=true",
-      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/512shots_so.png?raw=true",
-      "https://github.com/AxelothLeohryn/react-ai-shirt-designer/blob/main/docs/images/305shots_so.png?raw=true",
-    ],
-    tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
 
   {
@@ -247,36 +247,7 @@ export const projectListEN = [
     ],
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
-  {
-    title: "Reallo - Project and Task Planner",
-    description:
-      "Fullstack web application inspired by Trello. Login and registration; CRUD boards, lists, and tasks; drag and drop functionality. Integration tests with Cypress. Mobile-first and responsive design.",
-    // extraDescription:
-    //   "Currently in phase 2! (adding features and improving design).",
-    accessData: {
-      user: "demo@gmail.com",
-      password: "Demo123!",
-    },
-    link: "https://reallo-fullstack.onrender.com/",
-    github: "https://github.com/AxelothLeohryn/reallo-fullstack",
-    images: [
-      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/dnd.png?raw=true",
-      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/view.png?raw=true",
-      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/login.png?raw=true",
-      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/testing.png?raw=true",
-      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/docs.png?raw=true",
-    ],
-    tags: [
-      "REACT",
-      "VITE",
-      "NODEJS",
-      "EXPRESS",
-      "MONGODB",
-      "SASS",
-      "CYPRESS",
-      "DOCKER",
-    ],
-  },
+
   {
     title: "OpenAI & 3D Shirt Designer",
     description:
@@ -318,6 +289,36 @@ export const projectListEN = [
       "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/desktop.png",
     ],
     tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
+  },
+  {
+    title: "Reallo - Project and Task Planner",
+    description:
+      "Fullstack web application inspired by Trello. Login and registration; CRUD boards, lists, and tasks; drag and drop functionality. Integration tests with Cypress. Mobile-first and responsive design.",
+    // extraDescription:
+    //   "Currently in phase 2! (adding features and improving design).",
+    accessData: {
+      user: "demo@gmail.com",
+      password: "Demo123!",
+    },
+    link: "https://reallo-fullstack.onrender.com/",
+    github: "https://github.com/AxelothLeohryn/reallo-fullstack",
+    images: [
+      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/dnd.png?raw=true",
+      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/view.png?raw=true",
+      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/login.png?raw=true",
+      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/testing.png?raw=true",
+      "https://github.com/AxelothLeohryn/reallo-fullstack/blob/main/client/src/assets/docs.png?raw=true",
+    ],
+    tags: [
+      "REACT",
+      "VITE",
+      "NODEJS",
+      "EXPRESS",
+      "MONGODB",
+      "SASS",
+      "CYPRESS",
+      "DOCKER",
+    ],
   },
   {
     title: "PokeApp - Pokedex with React",
