@@ -11,7 +11,6 @@ gsap.registerPlugin(ScrollTrigger);
 const Projects = () => {
   const { language } = useContext(LanguageContext);
   const projectList = language === "es" ? projectListES : projectListEN;
-
   const scrollRef = useRef();
 
   useGSAP(() => {
