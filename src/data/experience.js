@@ -51,7 +51,7 @@ export const experienceListES = [
   },
   {
     title: "Internet Safety Evaluator - Telus Inc.",
-    date: "Enero 2020 - Diciembre 2023 (4 años)",
+    date: "Enero 2020 - Diciembre 2023",
     icon: "telus.png",
     description:
       "Evaluación de páginas web y contenido en línea, control de calidad, optimización del motor de búsqueda de Google.",
@@ -120,7 +120,7 @@ export const experienceListEN = [
   },
   {
     title: "Internet Safety Evaluator - Telus Inc.",
-    date: "January 2020 - December 2023 (4 years)",
+    date: "January 2020 - December 2023",
     icon: "telus.png",
     description:
       "Evaluation of online content and web pages, quality control, optimization of Google search engine.",
