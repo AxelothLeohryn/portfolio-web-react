@@ -12,6 +12,7 @@ const TechStack = () => {
     "NODEJS",
     "EXPRESS",
     "MONGODB",
+    "POSTGRESQL",
     "SASS",
     "TAILWINDCSS",
     "CYPRESS",
