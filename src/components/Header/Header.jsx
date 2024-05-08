@@ -33,7 +33,7 @@ const Header = ({ activeSection }) => {
       <header
         className={`w-[99vw] mx-auto gap-4 fixed top-0 z-10 transition duration-300 ${
           isScrolled
-            ? "shadow-lg bg-black/50 backdrop-filter backdrop-blur-3xl"
+            ? "shadow-lg bg-black/75 backdrop-filter backdrop-blur-xl"
             : ""
         }`}
       >
@@ -52,7 +52,7 @@ const Header = ({ activeSection }) => {
               className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-white ${
                 isActive("home") ? "glowing-active" : ""
               }`}
-              onClick={scrollToTop}
+              // onClick={scrollToTop}
             >
               {language === "en" ? "Home" : "Inicio"}
             </a>
@@ -82,7 +82,11 @@ const Header = ({ activeSection }) => {
               {language === "en" ? "About me" : "Sobre mí"}
             </a>
             <a
-              href={language === "en" ? "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf" : "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf"}
+              href={
+                language === "en"
+                  ? "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf"
+                  : "https://github.com/AxelothLeohryn/AxelothLeohryn/blob/main/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf"
+              }
               className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover rounded-b-2xl"
               target="_blank"
               rel="noopener noreferrer"
