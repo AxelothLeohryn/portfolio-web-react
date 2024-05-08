@@ -27,26 +27,29 @@ export const experienceListES = [
     title: "Desarrollo Web Fullstack - The Bridge",
     date: "Septiembre 2023 - Enero 2024",
     icon: "thebridge.png",
-    description:
-      "Programa intensivo y práctico (480h) de desarrollo web.",
-      items: [
-        "HTML5, CSS3 y JavaScript (ES6).",
-        "Desarrollo Frontend con React, React Hooks, testing unitario y E2E.",
-        "Desarrollo Backend con NodeJS y ExpressJS, API REST.",
-        "Gestión de bases de datos SQL y MongoDB.",
-        "Metodologías Agile y DevOps con Docker y CI/CD.",
-        ],
+    description: "Programa intensivo y práctico (480h) de desarrollo web.",
+    items: [
+      "HTML5, CSS3 y JavaScript (ES6) avanzado.",
+      "Desarrollo Frontend con React, React Hooks, testing unitario y E2E.",
+      "Desarrollo Backend con NodeJS y ExpressJS, API REST.",
+      "Gestión de bases de datos SQL y MongoDB.",
+      "Metodologías Agile y DevOps con Docker y CI/CD.",
+    ],
     link: "https://www.linkedin.com/in/alejandrosanchezsergueev",
     linkDescription: "Ver diploma en LinkedIn",
     type: "education",
   },
 
   {
-    title: "HTML, CSS, JavaScript - Codecademy",
+    title: "Fundamentos Desarrollo Web - Codecademy",
     date: "Junio 2022 - Agosto 2022",
     icon: "codeacademy.png",
-    description:
-      "Fundamentos del desarrollo web, incluyendo la construcción de páginas web con HTML, el estilo con CSS y la adición de interactividad con JavaScript.",
+    description: "Fundamentos del desarrollo web:",
+    items: [
+      "Construcción de páginas web con HTML.",
+      "Estilo con CSS.",
+      "Interactividad con JavaScript.",
+    ],
     type: "education",
   },
   {
@@ -96,10 +99,9 @@ export const experienceListEN = [
     title: "Fullstack Web Development - The Bridge",
     date: "September 2023 - January 2024",
     icon: "thebridge.png",
-    description:
-      "Intensive and practical (480h) web development program.",
+    description: "Intensive and practical (480h) web development program.",
     items: [
-      "HTML5, CSS3, and JavaScript (ES6).",
+      "Advanced HTML5, CSS3, and JavaScript (ES6).",
       "Frontend development with React, React Hooks, unit and E2E testing.",
       "Backend development with NodeJS and ExpressJS, API REST.",
       "SQL and MongoDB database management.",
@@ -111,11 +113,15 @@ export const experienceListEN = [
   },
 
   {
-    title: "HTML, CSS, JavaScript - Codecademy",
+    title: "Web Development fundamentals - Codecademy",
     date: "June 2022 - August 2022",
     icon: "codeacademy.png",
-    description:
-      "Fundamentals of web development, including building web pages with HTML, styling with CSS, and adding interactivity with JavaScript.",
+    description: "Fundamentals of web development:",
+    items: [
+      "Building web pages with HTML.",
+      "Styling with CSS.",
+      "Interactivity with JavaScript.",
+    ],
     type: "education",
   },
   {

@@ -20,7 +20,7 @@ const ExperienceItem = ({
       <div className="transition p-5">
         <div
           className={`text-2xl font-bold flex flex-row-reverse md:flex-row gap-4 md:items-center ${
-            isWork ? "text-blue-500" : isEducation ? "text-blue-500" : ""
+            isWork ? "text-blue-500" : isEducation ? "text-neutral-100" : ""
           } mt-4`}
         >
           <img
