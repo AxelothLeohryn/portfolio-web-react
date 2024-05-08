@@ -11,8 +11,8 @@ const About = ({ language }) => {
         />
         <p className="p-4 col-span-4 h-full place-content-center font-medium text-xl transition backdrop-filter backdrop-blur-3xl overflow-hidden hover:opacity-95">
           {language === "en"
-            ? "🙋‍♂️ My name is Alejandro, although I'm usually called Alex. My passion is creating attractive and functional websites or interfaces, always trying to stay at the forefront of technologies and trends. I employ my Fullstack knowledge to create complete projects that are both visually appealing and user-friendly."
-            : "🙋‍♂️ Me llamo Alejandro, aunque me suelen llamar Alex. Mi pasión es crear sitios web o interfaces atractivas y funcionales, intentando ir siempre a la vanguardia de las tecnologías y las tendencias. Empleo mis conocimientos Fullstack para crear proyectos completos que son tanto visualmente atractivos como fáciles de usar."}
+            ? "🙋‍♂️ My name is Alejandro, although I'm usually called Alex. My passion is creating attractive and functional websites and interfaces, always trying to stay at the forefront of technologies and trends. I employ my Fullstack knowledge to create complete projects that are both visually appealing and user-friendly."
+            : "🙋‍♂️ Me llamo Alejandro, aunque me suelen llamar Alex. Mi pasión es crear sitios web e interfaces atractivas y funcionales, intentando ir siempre a la vanguardia de las tecnologías y las tendencias. Empleo mis conocimientos Fullstack para crear proyectos completos que son tanto visualmente atractivos como fáciles de usar."}
         </p>
         <p className="p-4 col-span-3 h-full place-content-center font-medium text-lg md:text-xl transition backdrop-filter backdrop-blur-3xl overflow-hidden hover:opacity-95">
           {language === "en"
