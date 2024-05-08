@@ -8,10 +8,10 @@ const ProjectSlider = ({ images }) => {
       slide={false}
       pauseOnHover
       leftControl={
-        <ArrowBackIosIcon className="opacity-20 hover:opacity-100 transition-all" />
+        <ArrowBackIosIcon className="mix-blend-difference transition-all" />
       }
       rightControl={
-        <ArrowForwardIosIcon className="opacity-20 hover:opacity-100 transition-all" />
+        <ArrowForwardIosIcon className="mix-blend-difference transition-all" />
       }
     >
       {images.map((image, index) => (
