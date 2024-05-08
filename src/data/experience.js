@@ -7,7 +7,8 @@ export const experienceListES = [
   // },
   {
     title: "Fullstack Web Developer - Several Energy SL",
-    date: "Enero 2024",
+    date: "Diciembre 2023 - Enero 2024",
+    icon: "several.jpeg",
     description:
       "Desarrollo de una aplicación web para empresa de asesoría energética. Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. La oferta fue declinada por incompatibilidad de localización.",
     items: [
@@ -25,6 +26,7 @@ export const experienceListES = [
   {
     title: "Desarrollo Web Fullstack - The Bridge",
     date: "Septiembre 2023 - Enero 2024",
+    icon: "thebridge.png",
     description:
       "Programa intensivo y práctico (480h) de desarrollo web.",
       items: [
@@ -42,6 +44,7 @@ export const experienceListES = [
   {
     title: "HTML, CSS, JavaScript - Codecademy",
     date: "Junio 2022 - Agosto 2022",
+    icon: "codeacademy.png",
     description:
       "Fundamentos del desarrollo web, incluyendo la construcción de páginas web con HTML, el estilo con CSS y la adición de interactividad con JavaScript.",
     type: "education",
@@ -49,6 +52,7 @@ export const experienceListES = [
   {
     title: "Internet Safety Evaluator - Telus Inc.",
     date: "Enero 2020 - Diciembre 2023 (4 años)",
+    icon: "telus.png",
     description:
       "Evaluación de páginas web y contenido en línea, control de calidad, optimización del motor de búsqueda de Google.",
     type: "work",
@@ -57,6 +61,7 @@ export const experienceListES = [
   {
     title: "Grado en Química - Universidad Complutense de Madrid",
     date: "Septiembre 2017 - Junio 2023",
+    icon: "ucm.jpg",
     description:
       "Durante mi formación en Química, adquirí habilidades analíticas y resolutivas, y aprendí a trabajar en equipo y a comunicar de forma efectiva.",
     type: "education",
@@ -72,7 +77,8 @@ export const experienceListEN = [
   // },
   {
     title: "Fullstack Web Developer - Several Energy SL",
-    date: "January 2024",
+    date: "December 2023 - January 2024",
+    icon: "several.jpeg",
     description:
       "Development of a web application for an energy consulting company. Upon successfully completing the project at Several Energy SL, I received an offer to join the team as a full-stack developer in a permanent position. The offer was declined due to location incompatibility.",
     items: [
@@ -89,6 +95,7 @@ export const experienceListEN = [
   {
     title: "Fullstack Web Development - The Bridge",
     date: "September 2023 - January 2024",
+    icon: "thebridge.png",
     description:
       "Intensive and practical (480h) web development program.",
     items: [
@@ -106,6 +113,7 @@ export const experienceListEN = [
   {
     title: "HTML, CSS, JavaScript - Codecademy",
     date: "June 2022 - August 2022",
+    icon: "codeacademy.png",
     description:
       "Fundamentals of web development, including building web pages with HTML, styling with CSS, and adding interactivity with JavaScript.",
     type: "education",
@@ -113,6 +121,7 @@ export const experienceListEN = [
   {
     title: "Internet Safety Evaluator - Telus Inc.",
     date: "January 2020 - December 2023 (4 years)",
+    icon: "telus.png",
     description:
       "Evaluation of online content and web pages, quality control, optimization of Google search engine.",
     type: "work",
@@ -121,6 +130,7 @@ export const experienceListEN = [
   {
     title: "Bachelor's Degree in Chemistry - Complutense University of Madrid",
     date: "September 2017 - June 2023",
+    icon: "ucm.jpg",
     description:
       "During my Chemistry education, I acquired analytical and problem-solving skills, and learned to work in teams and communicate effectively.",
     type: "education",

@@ -3,6 +3,7 @@ import React from "react";
 const ExperienceItem = ({
   title,
   description,
+  icon,
   items,
   extraDescription,
   date,
@@ -15,19 +16,26 @@ const ExperienceItem = ({
 
   return (
     <>
-      <div className="absolute size-3 bg-gray-500 rounded-full mt-1.5 -start-1.5 border border-gray-900"></div>
-      <div className="transition p-5 max-w-[900px]">
-        <time className="mb-1 text-sm font-normal leading-none text-gray-300">
-          {date}
-        </time>
-        <h3
-          className={`text-2xl font-bold ${
+      <div className="absolute -translate-x-2 size-3 bg-neutral-700 rounded-full mt-2 border border-neutral-700"></div>
+      <div className="transition p-5">
+        <div
+          className={`text-2xl font-bold flex flex-row-reverse md:flex-row gap-4 md:items-center ${
             isWork ? "text-blue-500" : isEducation ? "text-blue-500" : ""
-          } my-4`}
+          } mt-4`}
         >
-          {isWork ? "👨🏻‍💻" : "🧑‍🎓"} {title}
-        </h3>
-        <p className="mb-4 text-base font-medium text-gray-400 text-pretty">
+          <img
+            className="rounded-full size-24 md:size-12"
+            src={icon}
+            alt="Several Energy SL"
+          />
+          <div>
+            <h3>{title}</h3>
+            <time className="my-1 text-sm font-normal italic leading-none text-gray-300">
+              {date}
+            </time>
+          </div>
+        </div>
+        <p className="my-4 text-base font-medium text-gray-400 text-pretty">
           {description}
         </p>
         {items && (
