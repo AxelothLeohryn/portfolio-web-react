@@ -132,7 +132,7 @@ const Header = ({ activeSection }) => {
             </label> */}
           </nav>
         </div>
-        <div className="w-[100vw] absolute left-0 top-0 z-10 pt-0.5 rounded-full bg-gradient-to-r from-[var(--gradient-start)] via-[var(--gradient-middle)] to-[var(--gradient-end)] opacity-70" />
+        {/* <div className="w-[100vw] absolute left-0 top-0 z-10 pt-0.5 rounded-full bg-gradient-to-r from-[var(--gradient-start)] via-[var(--gradient-middle)] to-[var(--gradient-end)] opacity-70" /> */}
       </header>
     </>
   );
