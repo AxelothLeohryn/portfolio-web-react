@@ -30,13 +30,13 @@ const Experience = () => {
       <ol ref={ref} className="relative border-s-2 border-neutral-700 ml-3">
         {language === "es" &&
           experienceListES.map((experience) => (
-            <li className="experience-item mb-5 ms-4" key={experience.title}>
+            <li className="experience-item mb-2 ms-2" key={experience.title}>
               <ExperienceItem {...experience} />
             </li>
           ))}
         {language === "en" &&
           experienceListEN.map((experience) => (
-            <li className="mb-10 ms-4" key={experience.title}>
+            <li className="mb-2 ms-2" key={experience.title}>
               <ExperienceItem {...experience} />
             </li>
           ))}

@@ -16,15 +16,15 @@ const ExperienceItem = ({
 
   return (
     <>
-      <div className="absolute -translate-x-2 size-3 bg-neutral-700 rounded-full mt-2 border border-neutral-700"></div>
+      {/* <div className="absolute -translate-x-2 size-3 bg-neutral-700 rounded-full mt-2 border border-neutral-700"></div> */}
       <div className="transition p-5">
         <div
-          className={`text-2xl font-bold flex flex-row-reverse md:flex-row gap-4 md:items-center ${
+          className={`text-xl font-bold flex flex-row gap-4 md:items-center ${
             isWork ? "text-blue-500" : isEducation ? "text-neutral-100" : ""
           } mt-4`}
         >
           <img
-            className="rounded-full size-24 md:size-12"
+            className="rounded-full size-16 md:size-12"
             src={icon}
             alt="Several Energy SL"
           />
@@ -35,7 +35,7 @@ const ExperienceItem = ({
             </time>
           </div>
         </div>
-        <p className="my-4 text-base font-medium text-gray-400 text-pretty">
+        <p className="my-6 text-sm font-medium text-gray-400 text-pretty">
           {description}
         </p>
         {items && (
@@ -43,7 +43,7 @@ const ExperienceItem = ({
             {items.map((item, id) => (
               <li
                 key={id}
-                className="text-base font-normal text-gray-400 text-pretty"
+                className="text-sm font-normal text-gray-400 text-pretty"
               >
                 {item}
               </li>
