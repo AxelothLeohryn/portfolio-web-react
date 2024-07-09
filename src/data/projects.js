@@ -13,11 +13,11 @@ export const projectListES = [
     link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/agents.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: [
       "REACT",
@@ -192,11 +192,11 @@ export const projectListEN = [
     link: "https://planorant.com",
     github: "https://github.com/AxelothLeohryn/planorant",
     images: [
+      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/mobile3.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/agents.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/jointeam.png?raw=true",
       "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/chat.png?raw=true",
-      "https://github.com/AxelothLeohryn/planorant/blob/main/client/src/assets/readme-images/desktop-light.png?raw=true",
     ],
     tags: [
       "REACT",
