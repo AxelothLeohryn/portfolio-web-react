@@ -62,8 +62,8 @@ export const projectListES = [
     link: "https://alejandrosanserg-iphone-landing.netlify.app/",
     github: "https://github.com/AxelothLeohryn/iphone-landing",
     images: [
-      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
       "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/highlights.webp?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
       "https://github.com/AxelothLeohryn/iphone-landing/raw/main/src/docs/readme-images/animations.webp?raw=true",
     ],
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
@@ -241,8 +241,8 @@ export const projectListEN = [
     link: "https://alejandrosanserg-iphone-landing.netlify.app/",
     github: "https://github.com/AxelothLeohryn/iphone-landing",
     images: [
-      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
       "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/highlights.webp?raw=true",
+      "https://github.com/AxelothLeohryn/iphone-landing/blob/main/src/docs/readme-images/cover.png?raw=true",
       "https://github.com/AxelothLeohryn/iphone-landing/raw/main/src/docs/readme-images/animations.webp?raw=true",
     ],
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
