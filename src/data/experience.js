@@ -10,7 +10,7 @@ export const experienceListES = [
     date: "Diciembre 2023 - Enero 2024",
     icon: "several.jpeg",
     description:
-      "Desarrollo de una aplicación web para empresa de asesoría energética. Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. La oferta fue declinada por incompatibilidad de localización.",
+      "Desarrollo de una aplicación web para empresa de asesoría energética. ",
     items: [
       "Desarrollo del Backend con NodeJS y ExpressJS. Autenticación con JWT y base de datos SQL.",
       "Desarrollo del Frontend con React, SASS.",
@@ -18,7 +18,7 @@ export const experienceListES = [
       "Metodología Agile y colaboración con Git y Figma.",
       "Participación en reuniones con cliente y presentación de resultados.",
     ],
-    // extraDescription: "Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. Esta oportunidad refleja el reconocimiento de mi contribución y habilidades desarrolladas durante el proyecto. Sin embargo, debido a incompatibilidades de localización, con la oferta basada en Valencia, tuve que declinarla.",
+    extraDescription: "Al concluir con éxito el proyecto en Several Energy SL, recibí una oferta para unirme al equipo como desarrollador full stack en una posición permanente. La oferta fue declinada por incompatibilidad de localización.",
     link: "https://github.com/TheBridge-DesafioTripulaciones-Grupo2/DesafioTripulaciones_Sept23_Grupo2_fullstack/tree/develop",
     linkDescription: "Info del proyecto en GitHub",
     type: "work",

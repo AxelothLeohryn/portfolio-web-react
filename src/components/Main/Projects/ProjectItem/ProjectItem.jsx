@@ -10,13 +10,13 @@ const ProjectItem = ({ project, additionalClasses }) => {
   return (
     <>
       <article
-        className={`flex flex-col justify-between mb-10 bg-neutral-900 rounded-2xl border border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
+        className={`flex flex-col justify-between mb-10 bg-neutral-900 rounded-2xl border border-b-neutral-950 border-t-neutral-600 border-neutral-800 transition hover:shadow-lg backdrop-filter backdrop-blur-3xl overflow-hidden ${additionalClasses}`}
       >
         <div>
           <div className="aspect-video transition">
             <ProjectSlider images={project.images} />
           </div>
-          <h3 className="text-2xl font-bold text-slate-300 px-6 py-6 text-pretty">
+          <h3 className="text-2xl font-bold text-slate-100 px-6 pt-6 pb-3 text-pretty">
             {project.title}
           </h3>
           <hr className="h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
@@ -29,7 +29,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
                   ))}
                 </section>
 
-                <p className="text-base font-normal text-gray-400 text-pretty mb-5">
+                <p className="text-base font-semibold text-gray-400 text-pretty mb-5">
                   {project.description}
                 </p>
                 {project.items && (
@@ -37,7 +37,7 @@ const ProjectItem = ({ project, additionalClasses }) => {
                     {project.items.map((item, id) => (
                       <li
                         key={id}
-                        className="text-base font-normal text-gray-400 text-pretty"
+                        className="text-base font-normal text-gray-500 text-pretty"
                       >
                         {item}
                       </li>

@@ -1,6 +1,6 @@
 export const projectListES = [
   {
-    title: "Planorant - Valorant Premier Planner",
+    title: "Planorant",
     description: "Planificador de equipos de Premier de Valorant.",
     items: [
       "Códigos de invitación para cada equipo.",
@@ -30,7 +30,7 @@ export const projectListES = [
     ],
   },
   {
-    title: "Zoom Clone - Next.js, Typescript",
+    title: "Zoom Clone",
     description:
       "Construido con las últimas versiones de Next.js y TypeScript, este proyecto replica Zoom, una herramienta ampliamente utilizada para videoconferencias.",
     items: [
@@ -51,9 +51,9 @@ export const projectListES = [
     tags: ["NEXTJS", "TYPESCRIPT", "TAILWINDCSS", "STREAMLIT", "CLERK"],
   },
   {
-    title: "iPhone 15 Pro Landing Page Clone",
+    title: "iPhone 15 Pro Landing",
     description:
-      "Landing page del iPhone 15 pro con diseño responsive, animaciones y modelo 3D.",
+      "Clon de la landing page del iPhone 15 Pro. Diseño responsive, animaciones y modelo 3D.",
     items: [
       "Slider de videos y progreso",
       "GSAP para animaciones.",
@@ -69,7 +69,7 @@ export const projectListES = [
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
   {
-    title: "OpenAI & 3D Shirt Designer",
+    title: "3D & AI Shirt Designer",
     description:
       "Aplicación web fullstack para visualizar diseños de camisetas en 3D y obtener diseños de la IA. ",
     extraDescription:
@@ -85,15 +85,22 @@ export const projectListES = [
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
   {
-    title: "Reallo - Planificador de proyectos y tareas",
+    title: "Reallo",
     description:
-      "Aplicación web fullstack inspirada en Trello. Login y registro; CRUD tableros, listas y tareas; funcionalidad drag and drop. Tests de integración con Cypress. Mobile-first y diseño responsive.",
+      "Aplicación web fullstack inspirada en Trello.",
     // extraDescription:
     //   "Actualmente en fase 2! (añadiendo funcionalidades y mejorando el diseño).",
     accessData: {
       user: "demo@gmail.com",
       password: "Demo123!",
     },
+    items: [
+      "Login y registro",
+      "CRUD de tableros, listas y tareas",
+      "Funcionalidad drag and drop",
+      "Tests de integración con Cypress",
+      "Mobile-first y diseño responsive",
+    ],
     link: "https://reallo-fullstack.onrender.com/",
     github: "https://github.com/AxelothLeohryn/reallo-fullstack",
     images: [
@@ -116,9 +123,9 @@ export const projectListES = [
   },
 
   {
-    title: "Dismoviery - Frontend VanillaJS",
+    title: "Dismoviery",
     description:
-      "Aplicación web construida con VanillaJS conectada a la API externa de TMDB. ",
+      "Aplicación web construida con HTML, CSS y JS conectada a la API externa de TMDB. ",
     items: [
       "Registro y autenticación de usuarios.",
       "Listas de favoritos y 'Ver más tarde'.",
@@ -142,10 +149,11 @@ export const projectListES = [
     tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
   },
   {
-    title: "PokeApp - Pokedex con React",
+    title: "Custom PokeApp",
     description:
-      "Aplicación de React que interactúa con la PokeAPI para proporcionar una experiencia interactiva para los fans de Pokémon. Utiliza componentes funcionales de React y hooks como useState(), useEffect(), useContext() y useParams() para gestionar el estado y los efectos secundarios. También permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
+      "Aplicación de React que interactúa con la PokeAPI.",
     items: [
+      "Permite agregar nuevos pokemons usando react-hook-form y guardarlos en el contexto.",
       "SASS para estilos y diseño responsive.",
       "Notificaciones, colores dinámicos según el tipo.",
       "Debouncing.",
@@ -162,10 +170,11 @@ export const projectListES = [
     tags: ["REACT", "SASS", "VITE"],
   },
   {
-    title: "MixTFT - Audio Mixer for Teamfight Tactics",
+    title: "MixTFT",
     description:
-      "Aplicación web que permite a los jugadores de Teamfight Tactics (TFT) mezclar y escuchar las bandas sonoras de las diferentes composiciones del Set 10 del juego. Mobile-first y diseño responsive.",
+      "Audio Mixer for Teamfight Tactics.",
     extraDescription: "(Prueba a mezclar Pentakill con Maestro 🤘)",
+    items:["Mezcla y escucha las bandas sonoras de las diferentes composiciones del Set 10 del juego.", "Mobile-first y diseño responsive."],
     accessData: null,
     link: "https://axelothleohryn.github.io/MixTFT-web/",
     github: "https://github.com/AxelothLeohryn/MixTFT-web",
@@ -179,12 +188,12 @@ export const projectListES = [
 
 export const projectListEN = [
   {
-    title: "Planorant - Valorant Premier Planner",
-    description: "Premier Valorant team planner.",
+    title: "Planorant",
+    description: "Premier team planner for Valorant.",
     items: [
-      "Invite codes for each team.",
-      "Selection of availability and agents for each game day.",
-      'Live chat, list of online users, "User typing" indicator.',
+      "Invitation codes for each team.",
+      "Availability and agent selection for each game day.",
+      'Live chat, online users list, "User typing" indicator.',
       "Synchronization with MongoDB.",
       "Theme selector and responsive design.",
     ],
@@ -209,12 +218,12 @@ export const projectListEN = [
     ],
   },
   {
-    title: "Zoom Clone - Next.js, Typescript",
+    title: "Zoom Clone",
     description:
       "Built with the latest versions of Next.js and TypeScript, this project replicates Zoom, a widely used tool for video conferencing.",
     items: [
       "Secure login with Clerk.",
-      "Meeting creation and access to meeting functionalities.",
+      "Meeting creation and access to meeting features.",
       "Recording, screen sharing, and participant management.",
       "Responsive and accessible design.",
     ],
@@ -230,11 +239,11 @@ export const projectListEN = [
     tags: ["NEXTJS", "TYPESCRIPT", "TAILWINDCSS", "STREAMLIT", "CLERK"],
   },
   {
-    title: "iPhone 15 Pro Landing Page Clone",
+    title: "iPhone 15 Pro Landing",
     description:
-      "Landing page of the iPhone 15 pro with responsive design, animations and 3D model.",
+      "Clone of the iPhone 15 Pro landing page. Responsive design, animations, and 3D model.",
     items: [
-      "Video slider and progress bar.",
+      "Video slider and progress",
       "GSAP for animations.",
       "3D model with ThreeJS.",
     ],
@@ -247,11 +256,10 @@ export const projectListEN = [
     ],
     tags: ["REACT", "GSAP", "THREEJS", "TAILWINDCSS"],
   },
-
   {
-    title: "OpenAI & 3D Shirt Designer",
+    title: "3D & AI Shirt Designer",
     description:
-      "Fullstack web application to visualize 3D t-shirt designs and obtain designs from AI.",
+      "Fullstack web application to visualize 3D shirt designs and get designs from AI.",
     extraDescription:
       "Interface with dynamic and fluid colors, adapted to any device, with the possibility of uploading your own files such as logos or textures. Ask the AI to generate new logos and textures.",
     accessData: null,
@@ -264,42 +272,23 @@ export const projectListEN = [
     ],
     tags: ["REACT", "THREEJS", "OPENAI", "NODEJS", "EXPRESS", "TAILWINDCSS"],
   },
-
   {
-    title: "Dismoviery - VanillaJS Frontend",
+    title: "Reallo",
     description:
-      "Web application built with VanillaJS connected to the external TMDB API.",
-    items: [
-      "User registration and authentication.",
-      "Favorites and 'Watch later' lists.",
-      "Filtering and searching for movies.",
-      "Discovery section.",
-      "Responsive design.",
-    ],
-    extraDescription: "Register or use the access data to try the app!",
-    accessData: {
-      user: "demo@gmail.com",
-      password: "Demo123!",
-    },
-    link: "https://axelothleohryn.github.io/dismoviery-website/",
-    github: "https://github.com/AxelothLeohryn/dismoviery-website",
-    images: [
-      "https://github.com/AxelothLeohryn/dismoviery-website/blob/main/assets/screenshots/mobile.png?raw=true",
-      "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/main.png",
-      "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/desktop.png",
-    ],
-    tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
-  },
-  {
-    title: "Reallo - Project and Task Planner",
-    description:
-      "Fullstack web application inspired by Trello. Login and registration; CRUD boards, lists, and tasks; drag and drop functionality. Integration tests with Cypress. Mobile-first and responsive design.",
+      "Fullstack web application inspired by Trello.",
     // extraDescription:
-    //   "Currently in phase 2! (adding features and improving design).",
+    //   "Currently in phase 2! (adding functionalities and improving design).",
     accessData: {
       user: "demo@gmail.com",
       password: "Demo123!",
     },
+    items: [
+      "Login and registration",
+      "CRUD for boards, lists, and tasks",
+      "Drag and drop functionality",
+      "Integration tests with Cypress",
+      "Mobile-first and responsive design",
+    ],
     link: "https://reallo-fullstack.onrender.com/",
     github: "https://github.com/AxelothLeohryn/reallo-fullstack",
     images: [
@@ -320,18 +309,46 @@ export const projectListEN = [
       "DOCKER",
     ],
   },
+
   {
-    title: "PokeApp - Pokedex with React",
+    title: "Dismoviery",
     description:
-      "React application that interacts with the PokeAPI to provide an interactive experience for Pokémon fans. Uses functional components of React and hooks like useState(), useEffect(), useContext(), and useParams() to manage state and side effects. It also allows adding new pokemons using react-hook-form and saving them in the context.",
+      "Web application built with HTML, CSS, and JS connected to the external TMDB API.",
     items: [
+      "User registration and authentication.",
+      "Favorite and 'Watch later' lists.",
+      "Movie filtering and search.",
+      'Discovery section.',
+      "Responsive design.",
+    ],
+    extraDescription:
+      "Register or use the access data to try the app!",
+    accessData: {
+      user: "demo@gmail.com",
+      password: "Demo123!",
+    },
+    link: "https://axelothleohryn.github.io/dismoviery-website/",
+    github: "https://github.com/AxelothLeohryn/dismoviery-website",
+    images: [
+      "https://github.com/AxelothLeohryn/dismoviery-website/blob/main/assets/screenshots/mobile.png?raw=true",
+      "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/main.png",
+      "https://github.com/AxelothLeohryn/dismoviery-website/raw/main/assets/screenshots/desktop.png",
+    ],
+    tags: ["JAVASCRIPT", "HTML5", "CSS3", "FIREBASE"],
+  },
+  {
+    title: "Custom PokeApp",
+    description:
+      "React application that interacts with the PokeAPI.",
+    items: [
+      "Allows adding new pokemons using react-hook-form and saving them in context.",
       "SASS for styles and responsive design.",
-      "Notifications, dynamic colors based on type.",
+      "Notifications, dynamic colors according to type.",
       "Debouncing.",
       "Unit tests with Vitest.",
     ],
     // extraDescription:
-    //   "SASS for styles and responsive design. Notifications, dynamic colors based on state, debouncing, unit tests with Vitest, and more!",
+    //   "SASS for styles and responsive design. Notifications, dynamic colors according to type, debouncing, unit tests with Vitest, and more!",
     accessData: null,
     link: "https://pokeapp-react-axeloth.netlify.app/",
     github: "https://github.com/AxelothLeohryn/pokeapp-react",
@@ -341,10 +358,11 @@ export const projectListEN = [
     tags: ["REACT", "SASS", "VITE"],
   },
   {
-    title: "MixTFT - Audio Mixer for Teamfight Tactics",
+    title: "MixTFT",
     description:
-      "Web application that allows Teamfight Tactics (TFT) players to mix and listen to the soundtracks of the different compositions from Set 10 of the game. Mobile-first and responsive design.",
+      "Audio Mixer for Teamfight Tactics.",
     extraDescription: "(Try mixing Pentakill with Maestro 🤘)",
+    items:["Mix and listen to the soundtracks of different compositions from Set 10 of the game.", "Mobile-first and responsive design."],
     accessData: null,
     link: "https://axelothleohryn.github.io/MixTFT-web/",
     github: "https://github.com/AxelothLeohryn/MixTFT-web",
@@ -355,3 +373,4 @@ export const projectListEN = [
     tags: ["HTML5", "CSS3", "JAVASCRIPT"],
   },
 ];
+

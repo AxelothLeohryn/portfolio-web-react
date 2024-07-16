@@ -49,7 +49,7 @@ const Header = ({ activeSection }) => {
           <nav className="flex flex-row text-sm lg:text-lg opacity-80 h-full">
             <a
               href="#home"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-white ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-gray-200 ${
                 isActive("home") ? "glowing-active" : ""
               }`}
               // onClick={scrollToTop}
@@ -58,7 +58,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#projects"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-white ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-gray-200 ${
                 isActive("projects") ? "glowing-active" : ""
               }`}
             >
@@ -66,7 +66,7 @@ const Header = ({ activeSection }) => {
             </a>
             <a
               href="#experience"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-white ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-gray-200 ${
                 isActive("experience") ? "glowing-active" : ""
               }`}
             >
@@ -75,7 +75,7 @@ const Header = ({ activeSection }) => {
 
             <a
               href="#about"
-              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-white ${
+              className={`py-4 px-2 lg:px-5 glow-on-hover rounded-b-2xl text-gray-200 ${
                 isActive("about") ? "glowing-active" : ""
               }`}
             >

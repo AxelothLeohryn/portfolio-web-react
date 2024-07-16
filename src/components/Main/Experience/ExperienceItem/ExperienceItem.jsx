@@ -43,7 +43,7 @@ const ExperienceItem = ({
             {items.map((item, id) => (
               <li
                 key={id}
-                className="text-sm font-normal text-gray-400 text-pretty"
+                className="text-sm font-normal text-gray-500 text-pretty"
               >
                 {item}
               </li>
@@ -51,7 +51,7 @@ const ExperienceItem = ({
           </ul>
         )}
         {extraDescription && (
-          <p className="mb-4 text-base font-normal text-gray-500 text-pretty">
+          <p className="mb-4 text-sm font-normal text-gray-400 text-pretty">
             {extraDescription}
           </p>
         )}

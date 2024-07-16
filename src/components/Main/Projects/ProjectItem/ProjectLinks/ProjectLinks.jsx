@@ -11,7 +11,7 @@ const {language} = useContext(LanguageContext);
     <div className="mx-auto flex justify-center gap-4 w-full">
       <Tooltip content={language === "en" ? "Github" : "Github"} placement="top">
         <a
-          className="rounded-full border border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-t from-[#4599bb] to-[#00cee9] transition-all"
+          className="rounded-full border border-t-neutral-950 border-b-neutral-600 border-neutral-800 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-b from-[#4599bb] to-[#00cee9] hover:shadow-cyan-400/50 hover:shadow-inner transition-all"
           href={github}
           target="_blank"
           rel="noopener noreferrer"
@@ -22,7 +22,7 @@ const {language} = useContext(LanguageContext);
       </Tooltip>
       <Tooltip content={language === "en" ? "Deployed App (might take a while to load for demo projects)" : "Aplicación desplegada (puede tardar en cargar para projectos de demo)"} placement="top">
         <a
-          className="rounded border border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-t from-[#4599bb] to-[#00cee9] transition-all"
+          className="rounded border border-t-neutral-950 border-b-neutral-600 border-neutral-800 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 md:px-4 text-base bg-white/5 hover:bg-gradient-to-b from-[#4599bb] to-[#00cee9] hover:shadow-cyan-400/50 hover:shadow-inner transition-all"
           href={link}
           target="_blank"
           rel="noopener noreferrer"
