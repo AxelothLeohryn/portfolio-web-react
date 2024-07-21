@@ -150,7 +150,7 @@ const Main = () => {
             text={"LinkedIn"}
             Icon={LinkedInIcon}
             link={
-              "https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
+              "https://www.linkedin.com/in/alejandrosanchezsergueev/"
             }
             delay={"0.4s"} // Adjust the delay for the second child
           />
