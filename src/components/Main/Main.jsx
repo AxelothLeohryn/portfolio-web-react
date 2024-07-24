@@ -163,7 +163,7 @@ const Main = () => {
           <SocialBadge
             text={"CV"}
             Icon={ListAltIcon}
-            link={language === "en" ? "/CV (ENG) - Alejandro Sanchez Sergueev.pdf" : "/CV - Alejandro Sanchez Sergueev.pdf"}
+            link={language === "en" ? "/CV(ENG)-AlejandroSanchezSergueev.pdf" : "/CV-AlejandroSanchezSergueev.pdf"}
             delay={"0.6s"} // Adjust the delay for the third child
           />
         </nav>

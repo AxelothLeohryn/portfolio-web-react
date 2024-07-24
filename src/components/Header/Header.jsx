@@ -84,8 +84,8 @@ const Header = ({ activeSection }) => {
             <a
               href={
                 language === "en"
-                  ? "/CV%20(ENG)%20-%20Alejandro%20Sanchez%20Sergueev.pdf"
-                  : "/CV%20-%20Alejandro%20Sanchez%20Sergueev.pdf"
+                  ? "/CV(ENG)-AlejandroSanchezSergueev.pdf"
+                  : "/CV-AlejandroSanchezSergueev.pdf"
               }
               className="hidden py-4 px-2 lg:px-5 text-gray-400 lg:flex gap-1 items-center glow-on-hover rounded-b-2xl"
               target="_blank"
