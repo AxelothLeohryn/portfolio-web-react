@@ -6,6 +6,15 @@ export const experienceListES = [
   //     "Desarrollo de mi portfolio personal, consolidación de conocimientos en JavaScript y React, además del aprendizaje continuo de nuevas tecnologías y mejores prácticas en el desarrollo web.",
   // },
   {
+    title: "Web UI Developer Jr - Globant",
+    date: "Octubre 2024 - Presente",
+    icon: "globant.jpg",
+    items: [
+      
+    ],
+    type: "work",
+  },
+  {
     title: "Fullstack Web Developer - Several Energy SL",
     date: "Diciembre 2023 - Enero 2024",
     icon: "several.jpeg",
@@ -78,6 +87,15 @@ export const experienceListEN = [
   //   description:
   //     "Development of my personal portfolio, consolidation of knowledge in JavaScript and React, as well as continuous learning of new technologies and best practices in web development.",
   // },
+  {
+    title: "Web UI Developer Jr - Globant",
+    date: "October 2024 - Current",
+    icon: "globant.jpg",
+    items: [
+      
+    ],
+    type: "work",
+  },
   {
     title: "Fullstack Web Developer - Several Energy SL",
     date: "December 2023 - January 2024",

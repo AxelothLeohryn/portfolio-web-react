@@ -24,7 +24,7 @@ const ExperienceItem = ({
           } mt-4`}
         >
           <img
-            className="rounded-full size-16 md:size-12"
+            className="rounded-full size-16 md:size-12 h-full w-full object-cover"
             src={icon}
             alt="Several Energy SL"
           />

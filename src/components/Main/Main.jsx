@@ -84,7 +84,7 @@ const Main = () => {
           </div>
           <a
             className="flex justify-center items-start slide-in-bottom"
-            href="https://www.linkedin.com/in/alejandro-s%C3%A1nchez-sergueev/"
+            href="https://www.linkedin.com/in/alejandrosanchezsergueev/"
             target=" _blank"
             rel="noopener"
           >
@@ -130,8 +130,8 @@ const Main = () => {
               : "Desarrollador Fullstack Jr."}
           </span>{" "}
           {language === "en"
-            ? "with an interest in Frontend and UX/UI. Focused on creating modern web projects, from initial design to deployment. Looking to get back to work and collaborate in a team."
-            : "con inquietud por el Frontend y UX/UI. Enfocado en crear proyectos web modernos, desde su diseño inicial hasta el despliegue. En búsqueda de volver a trabajar y colaborar en equipo."}{" "}
+            ? "with an interest in Frontend and UX/UI. Focused on creating modern web projects, from initial design to deployment."
+            : "con inquietud por el Frontend y UX/UI. Enfocado en crear proyectos web modernos, desde su diseño inicial hasta el despliegue."}{" "}
           <span className="bg-gradient-to-r from-[#a9eeff] to-[#9bedff] inline-block text-transparent bg-clip-text">
             {language === "en" ? "From Madrid, Spain" : "De Madrid, España"}
           </span>
